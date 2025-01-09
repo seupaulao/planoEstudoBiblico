@@ -21,11 +21,22 @@
 // See https://cordova.apache.org/docs/en/latest/cordova/events/events.html#deviceready
 document.addEventListener('deviceready', onDeviceReady, false);
 
+var chaveTemp = "";
+function setChaveTemp(v) {
+    chaveTemp = v;
+} 
+
 function onDeviceReady() {
     // Cordova is now initialized. Have fun!
 
     console.log('Running cordova-' + cordova.platformId + '@' + cordova.version);
    // document.getElementById('deviceready').classList.add('ready');
+
+    atualizarMeses();
+    w3.hide("#teladetalhar");
+}
+
+function atualizarMeses() {
     criarMeses(31,'JAN','janeiro');
     criarMeses(28,'FEV','fevereiro');
     criarMeses(31,'MAR','marco');
@@ -38,28 +49,97 @@ function onDeviceReady() {
     criarMeses(31,'OUT','outubro');
     criarMeses(30,'NOV','novembro');
     criarMeses(31,'DEZ','dezembro');
-
-    w3.hide("#teladetalhar");
 }
 
 function criarMeses(qtedias, ch, nomeElemento) {
     let str = '';
+    let storage = window.localStorage;
     for(let i=1;i<=qtedias;i++) {
         const chave = ch + '_' + i;
-         str += '<div id="'+chave+'" onclick="detalhar(\''+chave+'\')" class="caixavermelha">'+i+'</div>'
+        const valchave = storage.getItem(chave);
+         str += '<div id="'+chave+'" onclick="detalhar(\''+chave+'\')" class="'+calcularCorCaixa(valchave)+'">'+i+'</div>'
     }
     const nomeMES = nomeElemento.toUpperCase();
     document.getElementById(nomeElemento).innerHTML = "<br><div class='titulo2'>"+nomeMES+"</div><br><div class='mes'>" + str + "</div><br>";
 }
 
+function calcularCorCaixa(valchave) {
+    let padrao = 'caixavermelha';
+    if (valchave == null) return padrao;
+    if (valchave.length == 1) return 'caixaamarela';
+    if (valchave.length > 1) return 'caixaverde';
+}
+
 function detalhar(chave) {
     w3.show("#teladetalhar");
     w3.hide("#telainicial");
-    console.log(chave);
-    document.getElementById('chave').innerHTML = chave;
+    //console.log(chave);
+    setChaveTemp(chave);
+    carregarBotoesDetalhar();
+  //  document.getElementById('chave').innerHTML = chave;
 }
 
 function voltar() {
     w3.hide("#teladetalhar");
-    w3.show("#telainicial");    
+    w3.show("#telainicial");  
+    atualizarMeses();  
+}
+
+function salvar(chave, valor) {
+    let storage = window.localStorage;
+    let anterior = storage.getItem(chave);
+    if (anterior != null) {
+        storage.setItem(chave,anterior + valor);
+    } else {
+        storage.setItem(chave,valor);
+    }
+}
+
+function lidoTextoBiblico() {
+    let storage = window.localStorage;
+    let valor = storage.getItem(chaveTemp);
+    if (valor == null || valor.indexOf('b') < 0) {
+        salvar(chaveTemp, 'b');
+    }
+    w3.removeClass("#botaoB", "botaoazul");
+    w3.addClass("#botaoB", "botaoverde");
+    document.getElementById("botaoB").innerHTML = "Lido";
+}
+
+function lidoTextoEP() {
+    let storage = window.localStorage;
+    let valor = storage.getItem(chaveTemp);
+    if (valor == null || valor.indexOf('p') < 0) {
+        salvar(chaveTemp, 'p');
+    }
+    w3.removeClass("#botaoEP", "botaoazul");
+    w3.addClass("#botaoEP", "botaoverde");
+    document.getElementById("botaoEP").innerHTML = "Lido";
+}
+
+function carregarBotoesDetalhar() {
+    let storage = window.localStorage;
+    let valor = storage.getItem(chaveTemp);
+    console.log(chaveTemp);
+    console.log(valor);
+    
+    if (valor != null && valor.indexOf('b') >= 0) {
+        w3.removeClass("#botaoB", "botaoazul");
+        w3.addClass("#botaoB", "botaoverde");
+        document.getElementById("botaoB").innerHTML = "Lido"; 
+    } else {
+        w3.addClass("#botaoB", "botaoazul");
+        w3.removeClass("#botaoB", "botaoverde");
+        document.getElementById("botaoB").innerHTML = "Marcar como Lido Texto Bíblico"; 
+    }
+    if (valor != null && valor.indexOf('p') >= 0) {
+        w3.removeClass("#botaoEP", "botaoazul");
+        w3.addClass("#botaoEP", "botaoverde");
+        document.getElementById("botaoEP").innerHTML = "Lido"; 
+    } else {
+        w3.addClass("#botaoEP", "botaoazul");
+        w3.removeClass("#botaoEP", "botaoverde");
+        document.getElementById("botaoEP").innerHTML = "Marcar como Lido Texto Espírito de Profecia"; 
+    }
+
 }

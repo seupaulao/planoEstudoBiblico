@@ -13,14 +13,69 @@
     background-color: #ff0000;
     width: 50px;
     height: 50px;
-    padding-top: 15px;
+    padding-top: 13px;
     margin: 20px;
     text-align: center;
+    font-weight: bold;
+    font-size: 16px;
  }
+
+ .caixaamarela {
+   background-color: yellow;
+   width: 50px;
+   height: 50px;
+   padding-top: 13px;
+   margin: 20px;
+   text-align: center;
+   color: black;
+   font-weight: bold;
+   font-size: 16px;
+}
+
+.caixaverde {
+   background-color: yellowgreen;
+   width: 50px;
+   height: 50px;
+   padding-top: 13px;
+   margin: 20px;
+   text-align: center;
+   color: black;
+   font-weight: bold;
+   font-size: 16px;
+}
 
  .mes {
     display: flex;
     flex-direction: row;     
     flex-wrap: wrap;
     justify-content: center;
+ }
+
+ .containerdetalhar {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: stretch;
+   margin-left: 25px;
+   margin-right:25px;
+  
+ }
+
+ .botaoazul {
+   background-color: blue;
+   padding: 12px;
+   text-align: center;
+ }
+
+ .botaoverde {
+   background-color: greenyellow;
+   padding: 12px;
+   text-align: center;
+   color: black;
+ }
+
+
+ .botaovoltar {
+   margin-top: 12px;
+   padding: 12px;
  }
