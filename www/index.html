@@ -56,9 +56,29 @@
             <div id="dezembro"></div>
         </div>
         <div id="teladetalhar">
-            <div id="chave"></div>
-            <div>
-                <button onclick="voltar()">Voltar</button>
+            <!--div id="chave"></div-->
+            <div class="containerdetalhar">
+                <div class="titulo1">Plano de Estudo</div>
+                <br>
+                <div class="secao">
+                <div class="titulo2">Bíblia</div>
+                <br>
+                <div>Texto: Gênesis 1</div>
+                <br>
+                <div class="botaoazul" onclick="lidoTextoBiblico()">Marcar como Lido Texto Bíblico</div>
+                <br>
+                </div>
+                <br>
+                <div class="secao">
+                <div class="titulo2">Espírito de Profecia</div>
+                <br>
+                <div>Livro: Patriarcas e Profetas</div>
+                <div>Capítulo: 1</div>
+                <div>Texto: A Criação</div>
+                <br>
+                <div class="botaoazul" onclick="lidoTextoEP()">Marcar como Lido Texto Espírito de Profecia</div>
+                </div>
+                <button class="botaovoltar" onclick="voltar()">Voltar</button>
             </div>
         </div>
         <script src="cordova.js"></script>
