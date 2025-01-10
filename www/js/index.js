@@ -77,6 +77,19 @@ function detalhar(chave) {
     setChaveTemp(chave);
     carregarBotoesDetalhar();
   //  document.getElementById('chave').innerHTML = chave;
+    carregarDadosDetalhar();
+}
+
+function carregarDadosDetalhar() {
+    const valor1 = getCapitulosBibliaPlano(chaveTemp);
+    document.getElementById("textoBiblia").innerHTML = "<b>Texto: </b>" + valor1;
+
+    const valor2 = getNomeLivro(getSiglaESPlano(chaveTemp));
+    document.getElementById("livroEP").innerHTML = "<b>Livro: </b>" + valor2;
+    const valor3 = getCapitulosESPlano( chaveTemp );
+    document.getElementById("capituloEP").innerHTML = "<b>Capitulo: </b>"+valor3;
+    const valor4 = getTituloCapituloESPlano(chaveTemp);
+    document.getElementById("textoEP").innerHTML = "<b>Texto: </b>" + valor4;
 }
 
 function voltar() {
@@ -120,8 +133,8 @@ function lidoTextoEP() {
 function carregarBotoesDetalhar() {
     let storage = window.localStorage;
     let valor = storage.getItem(chaveTemp);
-    console.log(chaveTemp);
-    console.log(valor);
+  //  console.log(chaveTemp);
+ //   console.log(valor);
     
     if (valor != null && valor.indexOf('b') >= 0) {
         w3.removeClass("#botaoB", "botaoazul");

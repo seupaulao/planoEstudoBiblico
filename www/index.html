@@ -40,8 +40,12 @@
     </head>
     <body>
         <script src="js/w3.js"></script>
+        <script src="js/planos.js"></script>
         <div id="telainicial">
             <div class="titulo1">Plano Estudo Bíblico</div>
+            <br>
+            <div class="titulo2">Clique em um dia do mês para fazer o estudo</div>
+            <br>
             <div id="janeiro"></div>
             <div id="fevereiro"></div>
             <div id="marco"></div>
@@ -54,16 +58,17 @@
             <div id="outubro"></div>
             <div id="novembro"></div>
             <div id="dezembro"></div>
+            <div class="titulo3"><button class="botaoreiniciar" onclick="reiniciar()">Reiniciar Estudo</button></div>
         </div>
         <div id="teladetalhar">
             <!--div id="chave"></div-->
+            <div class="titulo1">Plano de Estudo</div>
             <div class="containerdetalhar">
-                <div class="titulo1">Plano de Estudo</div>
                 <br>
                 <div class="secao">
                 <div class="titulo2">Bíblia</div>
                 <br>
-                <div>Texto: Gênesis 1</div>
+                <div id="textoBiblia">Texto: Gênesis 1</div>
                 <br>
                 <div id="botaoB" class="botaoazul" onclick="lidoTextoBiblico()">Marcar como Lido Texto Bíblico</div>
                 <br>
@@ -72,9 +77,9 @@
                 <div class="secao">
                 <div class="titulo2">Espírito de Profecia</div>
                 <br>
-                <div>Livro: Patriarcas e Profetas</div>
-                <div>Capítulo: 1</div>
-                <div>Texto: A Criação</div>
+                <div id="livroEP">Livro: Patriarcas e Profetas</div>
+                <div id="capituloEP">Capítulo: 1</div>
+                <div id="textoEP">Texto: A Criação</div>
                 <br>
                 <div id="botaoEP" class="botaoazul" onclick="lidoTextoEP()">Marcar como Lido Texto Espírito de Profecia</div>
                 </div>
