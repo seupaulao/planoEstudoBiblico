@@ -117,6 +117,7 @@ function lidoTextoBiblico() {
     w3.removeClass("#botaoB", "botaoazul");
     w3.addClass("#botaoB", "botaoverde");
     document.getElementById("botaoB").innerHTML = "Lido";
+    testarBotaoReiniciarDia();
 }
 
 function lidoTextoEP() {
@@ -128,14 +129,24 @@ function lidoTextoEP() {
     w3.removeClass("#botaoEP", "botaoazul");
     w3.addClass("#botaoEP", "botaoverde");
     document.getElementById("botaoEP").innerHTML = "Lido";
+    testarBotaoReiniciarDia();
+}
+
+function testarBotaoReiniciarDia() {
+    let storage = window.localStorage;
+    let valor = storage.getItem(chaveTemp);
+    if (valor == null) {
+        w3.hide('.botaoreiniciardia');
+    } else {
+        w3.show('.botaoreiniciardia');
+    }
 }
 
 function carregarBotoesDetalhar() {
     let storage = window.localStorage;
     let valor = storage.getItem(chaveTemp);
-  //  console.log(chaveTemp);
- //   console.log(valor);
-    
+    testarBotaoReiniciarDia();
+        
     if (valor != null && valor.indexOf('b') >= 0) {
         w3.removeClass("#botaoB", "botaoazul");
         w3.addClass("#botaoB", "botaoverde");
@@ -155,4 +166,10 @@ function carregarBotoesDetalhar() {
         document.getElementById("botaoEP").innerHTML = "Marcar como Lido Texto Espírito de Profecia"; 
     }
 
+}
+
+function reiniciarDia() {
+    const storage =  window.localStorage;
+    storage.removeItem(chaveTemp);
+    carregarBotoesDetalhar();
 }
