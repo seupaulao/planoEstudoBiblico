@@ -191,45 +191,45 @@ const planosstring = '{' +
     '"JUL_7": {"CAPBIBLIA":"Lamentações 3 a 5, Marcos 7:24-37", "SIGLAES":"DTN", "CAPES":"43", "NOMES":"Barreiras Derrubadas"},' +
     '"JUL_8": {"CAPBIBLIA":"Ezequiel 1 a 3, Marcos 8:1-21", "SIGLAES":"DTN", "CAPES":"44", "NOMES":"O Verdadeiro Sinal"},' +
     '"JUL_9": {"CAPBIBLIA":"Ezequiel 4 a 6, Marcos 8:22-38", "SIGLAES":"DTN", "CAPES":"45", "NOMES":"A Previsão da Cruz"},' +
-    '"JUL_10": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"46", "NOMES":"Prefacio"},' +
-    '"JUL_11": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"47", "NOMES":"Prefacio"},' +
-    '"JUL_12": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"48", "NOMES":"Prefacio"},' +
-    '"JUL_13": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"49", "NOMES":"Prefacio"},' +
-    '"JUL_14": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"50", "NOMES":"Prefacio"},' +
-    '"JUL_15": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"51", "NOMES":"Prefacio"},' +
-    '"JUL_16": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"52", "NOMES":"Prefacio"},' +
-    '"JUL_17": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"53", "NOMES":"Prefacio"},' +
-    '"JUL_18": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"54", "NOMES":"Prefacio"},' +
-    '"JUL_19": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"55", "NOMES":"Prefacio"},' +
-    '"JUL_20": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"56", "NOMES":"Prefacio"},' +
-    '"JUL_21": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"57", "NOMES":"Prefacio"},' +
-    '"JUL_22": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"58", "NOMES":"Prefacio"},' +
-    '"JUL_23": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"59", "NOMES":"Prefacio"},' +
-    '"JUL_24": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"60", "NOMES":"Prefacio"},' +
-    '"JUL_25": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"61", "NOMES":"Prefacio"},' +
-    '"JUL_26": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"62", "NOMES":"Prefacio"},' +
-    '"JUL_27": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"63", "NOMES":"Prefacio"},' +
-    '"JUL_28": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"64", "NOMES":"Prefacio"},' +
-    '"JUL_29": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"65", "NOMES":"Prefacio"},' +
-    '"JUL_30": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"66", "NOMES":"Prefacio"},' +
-    '"JUL_31": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"67", "NOMES":"Ais Sobre os Fariseus"},' +
-    '"AGO_1": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"68", "NOMES":"No Pátio"},' +
-    '"AGO_2": {"CAPBIBLIA":"Salmos 3 a 6 e Genesis 1", "SIGLAES":"DTN", "CAPES":"69", "NOMES":"A Criação"},' +
-    '"AGO_3": {"CAPBIBLIA":"Salmos 7 a 8  e Genesis 2", "SIGLAES":"DTN", "CAPES":"70", "NOMES":"Outro"},' +
-    '"AGO_4": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"71", "NOMES":"Prefacio"},' +
-    '"AGO_5": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"72", "NOMES":"Prefacio"},' +
-    '"AGO_6": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"73", "NOMES":"Prefacio"},' +
-    '"AGO_7": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"74", "NOMES":"Prefacio"},' +
-    '"AGO_8": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"75", "NOMES":"Prefacio"},' +
-    '"AGO_9": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"76", "NOMES":"Prefacio"},' +
-    '"AGO_10": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"77", "NOMES":"Prefacio"},' +
-    '"AGO_11": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"78", "NOMES":"Prefacio"},' +
-    '"AGO_12": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"79", "NOMES":"Prefacio"},' +
-    '"AGO_13": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"80", "NOMES":"Prefacio"},' +
-    '"AGO_14": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"81", "NOMES":"Prefacio"},' +
-    '"AGO_15": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"82", "NOMES":"Prefacio"},' +
-    '"AGO_16": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"83", "NOMES":"Prefacio"},' +
-    '"AGO_17": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"84", "NOMES":"Prefacio"},' +
+    '"JUL_10": {"CAPBIBLIA":"Ezequiel 7 a 9, Lucas 9:28-26, Marcos 9:1-13, Mateus 17:1-8", "SIGLAES":"DTN", "CAPES":"46", "NOMES":"A Transfiguração"},' +
+    '"JUL_11": {"CAPBIBLIA":"Ezequiel 10 e 11, Lucas 9:37-45, Mateus 17:14-20, Marcos 9:14-29", "SIGLAES":"DTN", "CAPES":"47", "NOMES":"Nada Vos Será Impossível"},' +
+    '"JUL_12": {"CAPBIBLIA":"Ezequiel 12 a 14, Marcos 9:30-50, Lucas 9:46-48", "SIGLAES":"DTN", "CAPES":"48", "NOMES":"Quem é o Maior"},' +
+    '"JUL_13": {"CAPBIBLIA":"Ezequiel 15 a 16, João 7:1-15 e 7:37 a 39", "SIGLAES":"DTN", "CAPES":"49", "NOMES":"A Festa dos Tabernáculos"},' +
+    '"JUL_14": {"CAPBIBLIA":"Ezequiel 17, João 7:16-53", "SIGLAES":"DTN", "CAPES":"50", "NOMES":"Por Entre Laços"},' +
+    '"JUL_15": {"CAPBIBLIA":"Ezequiel 19 e 20, João 8 e 9:1-41", "SIGLAES":"DTN", "CAPES":"51", "NOMES":"A Luz da Vida"},' +
+    '"JUL_16": {"CAPBIBLIA":"Ezequiel 21 e 22, João 10, Salmos 23", "SIGLAES":"DTN", "CAPES":"52", "NOMES":"O divino Pastor"},' +
+    '"JUL_17": {"CAPBIBLIA":"Ezequiel 23 a 25, Lucas 9:46-62", "SIGLAES":"DTN", "CAPES":"53", "NOMES":"A Última jornada da Galiléia"},' +
+    '"JUL_18": {"CAPBIBLIA":"Ezequiel 26 e 27, Lucas 10", "SIGLAES":"DTN", "CAPES":"54", "NOMES":"O Bom Samaritano"},' +
+    '"JUL_19": {"CAPBIBLIA":"Ezequiel 28 e 29, Lucas 17", "SIGLAES":"DTN", "CAPES":"55", "NOMES":"Não com Aparência Exterior"},' +
+    '"JUL_20": {"CAPBIBLIA":"Ezequiel 30 e 31, Mateus 19:1-15", "SIGLAES":"DTN", "CAPES":"56", "NOMES":"Deixai vir a mim os pequeninos "},' +
+    '"JUL_21": {"CAPBIBLIA":"Ezequiel 32 a 34, Mateus 19:16-30, Lucas 18:18-23", "SIGLAES":"DTN", "CAPES":"57", "NOMES":"Uma coisa te falta"},' +
+    '"JUL_22": {"CAPBIBLIA":"Ezequiel 35 e 36, João 11:1-46", "SIGLAES":"DTN", "CAPES":"58", "NOMES":"Lázaro sai para fora"},' +
+    '"JUL_23": {"CAPBIBLIA":"Ezequiel 37 a 39, João 11:47-57", "SIGLAES":"DTN", "CAPES":"59", "NOMES":"Os Sacerdotes tramam"},' +
+    '"JUL_24": {"CAPBIBLIA":"Ezequiel 40 a 42, Lucas 18:24-34", "SIGLAES":"DTN", "CAPES":"60", "NOMES":"A Lei do Novo Reino"},' +
+    '"JUL_25": {"CAPBIBLIA":"Lucas 19:1-10, Lucas 20, Lucas 21", "SIGLAES":"DTN", "CAPES":"61", "NOMES":"Zaqueu"},' +
+    '"JUL_26": {"CAPBIBLIA":"Ezequiel 43 a 45, João 12:1-11", "SIGLAES":"DTN", "CAPES":"62", "NOMES":"Um Banquete na Casa de Simão"},' +
+    '"JUL_27": {"CAPBIBLIA":"Ezequiel 46 a 48, Lucas 19:28-40, João 12:12-19", "SIGLAES":"DTN", "CAPES":"63", "NOMES":"Eis que Teu Rei Virá"},' +
+    '"JUL_28": {"CAPBIBLIA":"Joel 1 a 3", "SIGLAES":"DTN", "CAPES":"64", "NOMES":"Um Povo Condenado"},' +
+    '"JUL_29": {"CAPBIBLIA":"Lucas 19:45-48, Marcos 10, Marcos 11 e 12:1-12", "SIGLAES":"DTN", "CAPES":"65", "NOMES":"O Templo Novamente Purificado"},' +
+    '"JUL_30": {"CAPBIBLIA":"Amós 1 e 2, Marcos 12:13-44", "SIGLAES":"DTN", "CAPES":"66", "NOMES":"Conflito"},' +
+    '"JUL_31": {"CAPBIBLIA":"Amós 3 e 4, Mateus 23, Marcos 12, Lucas 20:45-47", "SIGLAES":"DTN", "CAPES":"67", "NOMES":"Ais Sobre os Fariseus"},' +
+    '"AGO_1": {"CAPBIBLIA":"Amós 5 a 7, João 12:20-50", "SIGLAES":"DTN", "CAPES":"68", "NOMES":"No Pátio"},' +
+    '"AGO_2": {"CAPBIBLIA":"Amós 8 e 9, Mateus 24, Marcos 13", "SIGLAES":"DTN", "CAPES":"69", "NOMES":"O Monte das Oliveiras"},' +
+    '"AGO_3": {"CAPBIBLIA":"Miquéias 1 a 3, Mateus 25:31-36", "SIGLAES":"DTN", "CAPES":"70", "NOMES":"Um destes Meus Pequeninos Irmãos"},' +
+    '"AGO_4": {"CAPBIBLIA":"Miquéias 4 e 5, João 13:1-20", "SIGLAES":"DTN", "CAPES":"71", "NOMES":"Servo dos Servos"},' +
+    '"AGO_5": {"CAPBIBLIA":"Marcos 14 a 16, Marcos 14:22-26", "SIGLAES":"DTN", "CAPES":"72", "NOMES":"Em memória da mim"},' +
+    '"AGO_6": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"73", "NOMES":"Não se Turbe o Vosso Coração"},' +
+    '"AGO_7": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"74", "NOMES":"Getsêmani"},' +
+    '"AGO_8": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"75", "NOMES":"Caifás"},' +
+    '"AGO_9": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"76", "NOMES":"Judas"},' +
+    '"AGO_10": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"77", "NOMES":"Na Sala de Julgamento de Pilatos"},' +
+    '"AGO_11": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"78", "NOMES":"O Calvário"},' +
+    '"AGO_12": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"79", "NOMES":"Está Consumado"},' +
+    '"AGO_13": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"80", "NOMES":"No Sepulcro de José"},' +
+    '"AGO_14": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"81", "NOMES":"O Senhor Ressucitou"},' +
+    '"AGO_15": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"82", "NOMES":"Porque choras?"},' +
+    '"AGO_16": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"83", "NOMES":"A Viagem para Emaús"},' +
+    '"AGO_17": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"84", "NOMES":"Paz seja Convosco"},' +
     '"AGO_18": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"85", "NOMES":"Mais uma vez à Beira Mar"},' +
     '"AGO_19": {"CAPBIBLIA":"Jó 16 a 18, Mateus 28:16-20", "SIGLAES":"DTN", "CAPES":"86", "NOMES":"Ide Ensinai a Todas as Nações"},' +
     '"AGO_20": {"CAPBIBLIA":"Jó 19 a 24", "SIGLAES":"PJ", "CAPES":"****", "NOMES":"Prefacio"},' +
