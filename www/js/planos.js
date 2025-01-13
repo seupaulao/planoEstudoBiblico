@@ -218,11 +218,11 @@ const planosstring = '{' +
     '"AGO_3": {"CAPBIBLIA":"Miquéias 1 a 3, Mateus 25:31-36", "SIGLAES":"DTN", "CAPES":"70", "NOMES":"Um destes Meus Pequeninos Irmãos"},' +
     '"AGO_4": {"CAPBIBLIA":"Miquéias 4 e 5, João 13:1-20", "SIGLAES":"DTN", "CAPES":"71", "NOMES":"Servo dos Servos"},' +
     '"AGO_5": {"CAPBIBLIA":"Marcos 14 a 16, Marcos 14:22-26", "SIGLAES":"DTN", "CAPES":"72", "NOMES":"Em memória da mim"},' +
-    '"AGO_6": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"73", "NOMES":"Não se Turbe o Vosso Coração"},' +
-    '"AGO_7": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"74", "NOMES":"Getsêmani"},' +
-    '"AGO_8": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"75", "NOMES":"Caifás"},' +
-    '"AGO_9": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"76", "NOMES":"Judas"},' +
-    '"AGO_10": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"77", "NOMES":"Na Sala de Julgamento de Pilatos"},' +
+    '"AGO_6": {"CAPBIBLIA":"João 14 a 17, João 13:31-38", "SIGLAES":"DTN", "CAPES":"73", "NOMES":"Não se Turbe o Vosso Coração"},' +
+    '"AGO_7": {"CAPBIBLIA":"Miquéias 6 e 7, João 18:1-12", "SIGLAES":"DTN", "CAPES":"74", "NOMES":"Getsêmani"},' +
+    '"AGO_8": {"CAPBIBLIA":"Habacuque 1 a 3, João 18:13-27", "SIGLAES":"DTN", "CAPES":"75", "NOMES":"Caifás"},' +
+    '"AGO_9": {"CAPBIBLIA":"Obadias 1, João 13:21-30", "SIGLAES":"DTN", "CAPES":"76", "NOMES":"Judas"},' +
+    '"AGO_10": {"CAPBIBLIA":"Jó 1 a 3, João 18:28-40", "SIGLAES":"DTN", "CAPES":"77", "NOMES":"Na Sala de Julgamento de Pilatos"},' +
     '"AGO_11": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"78", "NOMES":"O Calvário"},' +
     '"AGO_12": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"79", "NOMES":"Está Consumado"},' +
     '"AGO_13": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"DTN", "CAPES":"80", "NOMES":"No Sepulcro de José"},' +
