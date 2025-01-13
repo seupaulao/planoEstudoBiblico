@@ -268,104 +268,104 @@ const planosstring = '{' +
     '"SET_22": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"03", "NOMES":"A Grande Missão"},' +
     '"SET_23": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"04", "NOMES":"O Pentecostes"},' +
     '"SET_24": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"05", "NOMES":"O Dom do Espírito"},' +
-    '"SET_25": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"24", "NOMES":"Prefacio"},' +
-    '"SET_26": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"25", "NOMES":"Prefacio"},' +
-    '"SET_27": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"26", "NOMES":"Prefacio"},' +
-    '"SET_28": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"27", "NOMES":"Prefacio"},' +
-    '"SET_29": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"28", "NOMES":"Prefacio"},' +
-    '"SET_30": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"29", "NOMES":"Prefacio"},' +
-    '"OUT_1": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"", "NOMES":"Prefacio"},' +
-    '"OUT_2": {"CAPBIBLIA":"Salmos 3 a 6 e Genesis 1", "SIGLAES":"AA", "CAPES":"01", "NOMES":"A Criação"},' +
-    '"OUT_3": {"CAPBIBLIA":"Salmos 7 a 8  e Genesis 2", "SIGLAES":"AA", "CAPES":"02", "NOMES":"Outro"},' +
-    '"OUT_4": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"03", "NOMES":"Prefacio"},' +
-    '"OUT_5": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"04", "NOMES":"Prefacio"},' +
-    '"OUT_6": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"05", "NOMES":"Prefacio"},' +
-    '"OUT_7": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"06", "NOMES":"Prefacio"},' +
-    '"OUT_8": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"07", "NOMES":"Prefacio"},' +
-    '"OUT_9": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"08", "NOMES":"Prefacio"},' +
-    '"OUT_10": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"09", "NOMES":"Prefacio"},' +
-    '"OUT_11": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"10", "NOMES":"Prefacio"},' +
-    '"OUT_12": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"11", "NOMES":"Prefacio"},' +
-    '"OUT_13": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"12", "NOMES":"Prefacio"},' +
-    '"OUT_14": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"13", "NOMES":"Prefacio"},' +
-    '"OUT_15": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"14", "NOMES":"Prefacio"},' +
-    '"OUT_16": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"15", "NOMES":"Prefacio"},' +
-    '"OUT_17": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"16", "NOMES":"Prefacio"},' +
-    '"OUT_18": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"17", "NOMES":"Prefacio"},' +
-    '"OUT_19": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"18", "NOMES":"Prefacio"},' +
-    '"OUT_20": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"19", "NOMES":"Prefacio"},' +
-    '"OUT_21": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"20", "NOMES":"Prefacio"},' +
-    '"OUT_22": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"21", "NOMES":"Prefacio"},' +
-    '"OUT_23": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"22", "NOMES":"Prefacio"},' +
-    '"OUT_24": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"23", "NOMES":"Prefacio"},' +
-    '"OUT_25": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"24", "NOMES":"Prefacio"},' +
-    '"OUT_26": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"25", "NOMES":"Prefacio"},' +
-    '"OUT_27": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"26", "NOMES":"Prefacio"},' +
-    '"OUT_28": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"27", "NOMES":"Prefacio"},' +
-    '"OUT_29": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"28", "NOMES":"Prefacio"},' +
-    '"OUT_30": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"29", "NOMES":"Prefacio"},' +
-    '"OUT_31": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"30", "NOMES":"Prefacio"},' +
-    '"NOV_1": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"", "NOMES":"Prefacio"},' +
-    '"NOV_2": {"CAPBIBLIA":"Salmos 3 a 6 e Genesis 1", "SIGLAES":"PP", "CAPES":"01", "NOMES":"A Criação"},' +
-    '"NOV_3": {"CAPBIBLIA":"Salmos 7 a 8  e Genesis 2", "SIGLAES":"PP", "CAPES":"02", "NOMES":"NOVro"},' +
-    '"NOV_4": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"03", "NOMES":"Prefacio"},' +
-    '"NOV_5": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"04", "NOMES":"Prefacio"},' +
-    '"NOV_6": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"05", "NOMES":"Prefacio"},' +
-    '"NOV_7": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"06", "NOMES":"Prefacio"},' +
-    '"NOV_8": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"07", "NOMES":"Prefacio"},' +
-    '"NOV_9": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"08", "NOMES":"Prefacio"},' +
-    '"NOV_10": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"09", "NOMES":"Prefacio"},' +
-    '"NOV_11": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"10", "NOMES":"Prefacio"},' +
-    '"NOV_12": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"11", "NOMES":"Prefacio"},' +
-    '"NOV_13": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"12", "NOMES":"Prefacio"},' +
-    '"NOV_14": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"13", "NOMES":"Prefacio"},' +
-    '"NOV_15": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"14", "NOMES":"Prefacio"},' +
-    '"NOV_16": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"15", "NOMES":"Prefacio"},' +
-    '"NOV_17": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"16", "NOMES":"Prefacio"},' +
-    '"NOV_18": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"17", "NOMES":"Prefacio"},' +
-    '"NOV_19": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"18", "NOMES":"Prefacio"},' +
-    '"NOV_20": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"19", "NOMES":"Prefacio"},' +
-    '"NOV_21": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"20", "NOMES":"Prefacio"},' +
-    '"NOV_22": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"21", "NOMES":"Prefacio"},' +
-    '"NOV_23": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"22", "NOMES":"Prefacio"},' +
-    '"NOV_24": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"23", "NOMES":"Prefacio"},' +
-    '"NOV_25": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"24", "NOMES":"Prefacio"},' +
-    '"NOV_26": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"25", "NOMES":"Prefacio"},' +
-    '"NOV_27": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"26", "NOMES":"Prefacio"},' +
-    '"NOV_28": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"27", "NOMES":"Prefacio"},' +
-    '"NOV_29": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"28", "NOMES":"Prefacio"},' +
-    '"NOV_30": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"29", "NOMES":"Prefacio"},' +
-    '"DEZ_1": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"", "NOMES":"Prefacio"},' +
-    '"DEZ_2": {"CAPBIBLIA":"Salmos 3 a 6 e Genesis 1", "SIGLAES":"PP", "CAPES":"01", "NOMES":"A Criação"},' +
-    '"DEZ_3": {"CAPBIBLIA":"Salmos 7 a 8  e Genesis 2", "SIGLAES":"PP", "CAPES":"02", "NOMES":"DEZro"},' +
-    '"DEZ_4": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"03", "NOMES":"Prefacio"},' +
-    '"DEZ_5": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"04", "NOMES":"Prefacio"},' +
-    '"DEZ_6": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"05", "NOMES":"Prefacio"},' +
-    '"DEZ_7": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"06", "NOMES":"Prefacio"},' +
-    '"DEZ_8": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"07", "NOMES":"Prefacio"},' +
-    '"DEZ_9": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"08", "NOMES":"Prefacio"},' +
-    '"DEZ_10": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"09", "NOMES":"Prefacio"},' +
-    '"DEZ_11": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"10", "NOMES":"Prefacio"},' +
-    '"DEZ_12": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"11", "NOMES":"Prefacio"},' +
-    '"DEZ_13": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"12", "NOMES":"Prefacio"},' +
-    '"DEZ_14": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"13", "NOMES":"Prefacio"},' +
-    '"DEZ_15": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"14", "NOMES":"Prefacio"},' +
-    '"DEZ_16": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"15", "NOMES":"Prefacio"},' +
-    '"DEZ_17": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"16", "NOMES":"Prefacio"},' +
-    '"DEZ_18": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"17", "NOMES":"Prefacio"},' +
-    '"DEZ_19": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"18", "NOMES":"Prefacio"},' +
-    '"DEZ_20": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"19", "NOMES":"Prefacio"},' +
-    '"DEZ_21": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"20", "NOMES":"Prefacio"},' +
-    '"DEZ_22": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"21", "NOMES":"Prefacio"},' +
-    '"DEZ_23": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"22", "NOMES":"Prefacio"},' +
-    '"DEZ_24": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"23", "NOMES":"Prefacio"},' +
-    '"DEZ_25": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"24", "NOMES":"Prefacio"},' +
-    '"DEZ_26": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"25", "NOMES":"Prefacio"},' +
-    '"DEZ_27": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"26", "NOMES":"Prefacio"},' +
-    '"DEZ_28": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"27", "NOMES":"Prefacio"},' +
-    '"DEZ_29": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"28", "NOMES":"Prefacio"},' +
-    '"DEZ_30": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"29", "NOMES":"Prefacio"},' +
-    '"DEZ_31": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"30", "NOMES":"Prefacio"}' +
+    '"SET_25": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"06", "NOMES":"Prefacio"},' +
+    '"SET_26": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"07", "NOMES":"Prefacio"},' +
+    '"SET_27": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"08", "NOMES":"Prefacio"},' +
+    '"SET_28": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"09", "NOMES":"Prefacio"},' +
+    '"SET_29": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"10", "NOMES":"Prefacio"},' +
+    '"SET_30": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"11", "NOMES":"Prefacio"},' +
+    '"OUT_1": {"CAPBIBLIA":"Salmos 109 e 110, Atos 9:1-18", "SIGLAES":"AA", "CAPES":"12", "NOMES":"De perseguidor a Discípulo"},' +
+    '"OUT_2": {"CAPBIBLIA":"Salmos 111 a 113, Atos 9:19-30", "SIGLAES":"AA", "CAPES":"13", "NOMES":"Dias de Preparo"},' +
+    '"OUT_3": {"CAPBIBLIA":"Salmos 114 e 115, Atos 9 a 11", "SIGLAES":"AA", "CAPES":"14", "NOMES":"Um Inquiridor da Verdade"},' +
+    '"OUT_4": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"15", "NOMES":"Prefacio"},' +
+    '"OUT_5": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"16", "NOMES":"Prefacio"},' +
+    '"OUT_6": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"17", "NOMES":"Prefacio"},' +
+    '"OUT_7": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"18", "NOMES":"Prefacio"},' +
+    '"OUT_8": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"19", "NOMES":"Prefacio"},' +
+    '"OUT_9": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"20", "NOMES":"Prefacio"},' +
+    '"OUT_10": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"21", "NOMES":"Prefacio"},' +
+    '"OUT_11": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"22", "NOMES":"Prefacio"},' +
+    '"OUT_12": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"23", "NOMES":"Prefacio"},' +
+    '"OUT_13": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"24", "NOMES":"Prefacio"},' +
+    '"OUT_14": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"25", "NOMES":"Prefacio"},' +
+    '"OUT_15": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"26", "NOMES":"Prefacio"},' +
+    '"OUT_16": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"27", "NOMES":"Prefacio"},' +
+    '"OUT_17": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"28", "NOMES":"Prefacio"},' +
+    '"OUT_18": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"29", "NOMES":"Prefacio"},' +
+    '"OUT_19": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"30", "NOMES":"Chamado a Mais Elevada Ordem"},' +
+    '"OUT_20": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"31", "NOMES":"Prefacio"},' +
+    '"OUT_21": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"32", "NOMES":"Prefacio"},' +
+    '"OUT_22": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"33", "NOMES":"Prefacio"},' +
+    '"OUT_23": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"34", "NOMES":"Prefacio"},' +
+    '"OUT_24": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"35", "NOMES":"Prefacio"},' +
+    '"OUT_25": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"36", "NOMES":"Prefacio"},' +
+    '"OUT_26": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"37", "NOMES":"Prefacio"},' +
+    '"OUT_27": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"38", "NOMES":"Prefacio"},' +
+    '"OUT_28": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"39", "NOMES":"Prefacio"},' +
+    '"OUT_29": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"40", "NOMES":"Paulo Apela para César"},' +
+    '"OUT_30": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"41", "NOMES":"Prefacio"},' +
+    '"OUT_31": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"42", "NOMES":"Prefacio"},' +
+    '"NOV_1": {"CAPBIBLIA":"Filemon 1, Atos 28", "SIGLAES":"AA", "CAPES":"43", "NOMES":"Em Roma"},' +
+    '"NOV_2": {"CAPBIBLIA":"Tito 1 a 3", "SIGLAES":"AA", "CAPES":"44", "NOMES":"Os da Casa de César"},' +
+    '"NOV_3": {"CAPBIBLIA":"Filipenses 1 a 4", "SIGLAES":"AA", "CAPES":"45", "NOMES":"Carta de Roma"},' +
+    '"NOV_4": {"CAPBIBLIA":"Colossenses 1 a 4", "SIGLAES":"AA", "CAPES":"46", "NOMES":"Em Liberdade"},' +
+    '"NOV_5": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"47", "NOMES":"A Última Prisão"},' +
+    '"NOV_6": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"48", "NOMES":"Paulo perante Nero"},' +
+    '"NOV_7": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"49", "NOMES":"Última Carta de Paulo"},' +
+    '"NOV_8": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"50", "NOMES":"Condenado a Morte"},' +
+    '"NOV_9": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"51", "NOMES":"Prefacio"},' +
+    '"NOV_10": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"52", "NOMES":"Prefacio"},' +
+    '"NOV_11": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"53", "NOMES":"Prefacio"},' +
+    '"NOV_12": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"54", "NOMES":"Prefacio"},' +
+    '"NOV_13": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"55", "NOMES":"Prefacio"},' +
+    '"NOV_14": {"CAPBIBLIA":"Salmos 131 a 136, Apocalipse 1", "SIGLAES":"AA", "CAPES":"56", "NOMES":"Patmos"},' +
+    '"NOV_15": {"CAPBIBLIA":"Salmos 137 a 140, Apocalipse 2", "SIGLAES":"AA", "CAPES":"57", "NOMES":"O Apocalipse"},' +
+    '"NOV_16": {"CAPBIBLIA":"Salmos 141 a 143, Apocalipse 3", "SIGLAES":"AA", "CAPES":"58", "NOMES":"A Igreja Triunfante"},' +
+    '"NOV_17": {"CAPBIBLIA":"Salmos 146 a 150", "SIGLAES":"GC", "CAPES":"**", "NOMES":"Introdução"},' +
+    '"NOV_18": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"01", "NOMES":"Predito o Destino do Mundo"},' +
+    '"NOV_19": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"02", "NOMES":"O Valor dos Mártires"},' +
+    '"NOV_20": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"03", "NOMES":"Prefacio"},' +
+    '"NOV_21": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"04", "NOMES":"Prefacio"},' +
+    '"NOV_22": {"CAPBIBLIA":"Provérbios 4 a 6", "SIGLAES":"GC", "CAPES":"05", "NOMES":"Arautos de uma Era Melhor"},' +
+    '"NOV_23": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"06", "NOMES":"Prefacio"},' +
+    '"NOV_24": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"07", "NOMES":"Prefacio"},' +
+    '"NOV_25": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"08", "NOMES":"O Poder Triunfante da Verdade"},' +
+    '"NOV_26": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"09", "NOMES":"Luz na Suíça"},' +
+    '"NOV_27": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"10", "NOMES":"Prefacio"},' +
+    '"NOV_28": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"11", "NOMES":"Prefacio"},' +
+    '"NOV_29": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"12", "NOMES":"Prefacio"},' +
+    '"NOV_30": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"13", "NOMES":"Liberdade nos Países Baixos"},' +
+    '"DEZ_1": {"CAPBIBLIA":"Eclesiastes 7 e 8", "SIGLAES":"GC", "CAPES":"14", "NOMES":"Progressos na Inglaterra"},' +
+    '"DEZ_2": {"CAPBIBLIA":"Eclesiastes 10 e 11, Apocalipse 11", "SIGLAES":"GC", "CAPES":"15", "NOMES":"A Escritura Sagrada e a Revolução Francesa"},' +
+    '"DEZ_3": {"CAPBIBLIA":"Cantares 1 a 3", "SIGLAES":"GC", "CAPES":"16", "NOMES":"O Mais Sagrado Direito do Homem"},' +
+    '"DEZ_4": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"17", "NOMES":"A Esperança que Infunde a Alegria"},' +
+    '"DEZ_5": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"18", "NOMES":"Prefacio"},' +
+    '"DEZ_6": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"19", "NOMES":"Prefacio"},' +
+    '"DEZ_7": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"20", "NOMES":"Prefacio"},' +
+    '"DEZ_8": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"21", "NOMES":"Prefacio"},' +
+    '"DEZ_9": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"22", "NOMES":"Prefacio"},' +
+    '"DEZ_10": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"23", "NOMES":"Prefacio"},' +
+    '"DEZ_11": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"24", "NOMES":"Prefacio"},' +
+    '"DEZ_12": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"25", "NOMES":"Prefacio"},' +
+    '"DEZ_13": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"26", "NOMES":"Prefacio"},' +
+    '"DEZ_14": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"27", "NOMES":"Prefacio"},' +
+    '"DEZ_15": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"28", "NOMES":"Prefacio"},' +
+    '"DEZ_16": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"29", "NOMES":"Prefacio"},' +
+    '"DEZ_17": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"30", "NOMES":"Prefacio"},' +
+    '"DEZ_18": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"31", "NOMES":"Prefacio"},' +
+    '"DEZ_19": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"32", "NOMES":"Prefacio"},' +
+    '"DEZ_20": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"33", "NOMES":"Prefacio"},' +
+    '"DEZ_21": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"34", "NOMES":"Prefacio"},' +
+    '"DEZ_22": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"35", "NOMES":"Prefacio"},' +
+    '"DEZ_23": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"36", "NOMES":"O Maior Perigo para o Lar"},' +
+    '"DEZ_24": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"37", "NOMES":"Nossa Única Salvaguarda"},' +
+    '"DEZ_25": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"38", "NOMES":"O Último Convite Divino"},' +
+    '"DEZ_26": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"39", "NOMES":"Aproxima-se o Tempo de Angústia"},' +
+    '"DEZ_27": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"40", "NOMES":"O Livramento dos Justos"},' +
+    '"DEZ_28": {"CAPBIBLIA":"Provérbios 30 e 31, Apocalipse 20", "SIGLAES":"GC", "CAPES":"41", "NOMES":"Será desolada a Terra"},' +
+    '"DEZ_29": {"CAPBIBLIA":"Salmos 46, Apocalipse 21 e 22", "SIGLAES":"GC", "CAPES":"42", "NOMES":"O Final e Glorioso Triunfo"},' +
+    '"DEZ_30": {"CAPBIBLIA":"Revisão Geral do Velho Testamento", "SIGLAES":"**", "CAPES":"**", "NOMES":"****"},' +
+    '"DEZ_31": {"CAPBIBLIA":"Revisão Geral do Novo Testamento", "SIGLAES":"**", "CAPES":"**", "NOMES":"****"}' +
 '}';
 
  function getCapitulosBibliaPlano(chave) {
