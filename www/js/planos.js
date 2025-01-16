@@ -277,73 +277,73 @@ const planosstring = '{' +
     '"OUT_1": {"CAPBIBLIA":"Salmos 109 e 110, Atos 9:1-18", "SIGLAES":"AA", "CAPES":"12", "NOMES":"De perseguidor a Discípulo"},' +
     '"OUT_2": {"CAPBIBLIA":"Salmos 111 a 113, Atos 9:19-30", "SIGLAES":"AA", "CAPES":"13", "NOMES":"Dias de Preparo"},' +
     '"OUT_3": {"CAPBIBLIA":"Salmos 114 e 115, Atos 9 a 11", "SIGLAES":"AA", "CAPES":"14", "NOMES":"Um Inquiridor da Verdade"},' +
-    '"OUT_4": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"15", "NOMES":"Libertado da Prisão"},' +
-    '"OUT_5": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"16", "NOMES":"A Mensagem do Evangelho em Antioquia"},' +
-    '"OUT_6": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"17", "NOMES":"Arautos do Evngelho"},' +
-    '"OUT_7": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"18", "NOMES":"Pregando entre Gentios"},' +
-    '"OUT_8": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"19", "NOMES":"Judeus e Gentios"},' +
-    '"OUT_9": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"20", "NOMES":"Exaltando a Cruz"},' +
-    '"OUT_10": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"21", "NOMES":"Nas Regiões Distantes"},' +
-    '"OUT_11": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"22", "NOMES":"Tessalônica"},' +
-    '"OUT_12": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"23", "NOMES":"Beréia e Atenas"},' +
-    '"OUT_13": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"24", "NOMES":"Corinto"},' +
-    '"OUT_14": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"25", "NOMES":"As Cartas aos Tessalonicenses"},' +
-    '"OUT_15": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"26", "NOMES":"Apoio em Corinto"},' +
-    '"OUT_16": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"27", "NOMES":"Éfeso"},' +
-    '"OUT_17": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"28", "NOMES":"Dias de Luta e de Prova"},' +
-    '"OUT_18": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"29", "NOMES":"Mensagem de AAdvertência"},' +
-    '"OUT_19": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"30", "NOMES":"Chamado a Mais Elevada Ordem"},' +
-    '"OUT_20": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"31", "NOMES":"A Mensagem Atendida"},' +
-    '"OUT_21": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"32", "NOMES":"Uma Igreja Liberal"},' +
-    '"OUT_22": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"33", "NOMES":"Trabalho sobre Dificuldades"},' +
-    '"OUT_23": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"34", "NOMES":"Ministério Consagrado"},' +
-    '"OUT_24": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"35", "NOMES":"Salvação para os Judeus"},' +
-    '"OUT_25": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"36", "NOMES":"Apostasia na Galácia"},' +
-    '"OUT_26": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"37", "NOMES":"A Última Viagem de Paulo"},' +
-    '"OUT_27": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"38", "NOMES":"Paulo Prisioneiro"},' +
-    '"OUT_28": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"39", "NOMES":"Perante o Tribunal de Cesaréia"},' +
-    '"OUT_29": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"40", "NOMES":"Paulo Apela para César"},' +
-    '"OUT_30": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"41", "NOMES":"Quase Persuadido"},' +
-    '"OUT_31": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"42", "NOMES":"A Viagem e o Naufrágio"},' +
+    '"OUT_4": {"CAPBIBLIA":"Salmos 116 a 118, Atos 12", "SIGLAES":"AA", "CAPES":"15", "NOMES":"Libertado da Prisão"},' +
+    '"OUT_5": {"CAPBIBLIA":"Salmos 119, Atos 13:1-3", "SIGLAES":"AA", "CAPES":"16", "NOMES":"A Mensagem do Evangelho em Antioquia"},' +
+    '"OUT_6": {"CAPBIBLIA":"Salmos 120 e 121, Atos 13:4-52", "SIGLAES":"AA", "CAPES":"17", "NOMES":"Arautos do Evngelho"},' +
+    '"OUT_7": {"CAPBIBLIA":"Salmos 122 a 124, Atos 14", "SIGLAES":"AA", "CAPES":"18", "NOMES":"Pregando entre Gentios"},' +
+    '"OUT_8": {"CAPBIBLIA":"Atos 15, Romanos 1 e 2", "SIGLAES":"AA", "CAPES":"19", "NOMES":"Judeus e Gentios"},' +
+    '"OUT_9": {"CAPBIBLIA":"Atos 16:1-5, Romanos 3", "SIGLAES":"AA", "CAPES":"20", "NOMES":"Exaltando a Cruz"},' +
+    '"OUT_10": {"CAPBIBLIA":"Atos 16:6-40, Romanos 4 e 5", "SIGLAES":"AA", "CAPES":"21", "NOMES":"Nas Regiões Distantes"},' +
+    '"OUT_11": {"CAPBIBLIA":"Atos 17:1-9, I Tessalonicenses 1 e 2", "SIGLAES":"AA", "CAPES":"22", "NOMES":"Tessalônica"},' +
+    '"OUT_12": {"CAPBIBLIA":"Atos 17:10-34, I Coríntios 1 a 3", "SIGLAES":"AA", "CAPES":"23", "NOMES":"Beréia e Atenas"},' +
+    '"OUT_13": {"CAPBIBLIA":"Atos 18:1-17, I Coríntios 4 a 6", "SIGLAES":"AA", "CAPES":"24", "NOMES":"Corinto"},' +
+    '"OUT_14": {"CAPBIBLIA":"I Tessalonicenses 3 a 5", "SIGLAES":"AA", "CAPES":"25", "NOMES":"As Cartas aos Tessalonicenses"},' +
+    '"OUT_15": {"CAPBIBLIA":"Atos 18:18-28, I Coríntios 7 a 9", "SIGLAES":"AA", "CAPES":"26", "NOMES":"Apoio em Corinto"},' +
+    '"OUT_16": {"CAPBIBLIA":"Atos 19:1-20, Efésios 1 a 3", "SIGLAES":"AA", "CAPES":"27", "NOMES":"Éfeso"},' +
+    '"OUT_17": {"CAPBIBLIA":"Atos 19:21-41, Efésios 4 a 6", "SIGLAES":"AA", "CAPES":"28", "NOMES":"Dias de Luta e de Prova"},' +
+    '"OUT_18": {"CAPBIBLIA":"I Coríntios 10 a 12", "SIGLAES":"AA", "CAPES":"29", "NOMES":"Mensagem de AAdvertência"},' +
+    '"OUT_19": {"CAPBIBLIA":"I Coríntios 13 a 16", "SIGLAES":"AA", "CAPES":"30", "NOMES":"Chamado a Mais Elevada Ordem"},' +
+    '"OUT_20": {"CAPBIBLIA":"II Coríntios 1 a 3", "SIGLAES":"AA", "CAPES":"31", "NOMES":"A Mensagem Atendida"},' +
+    '"OUT_21": {"CAPBIBLIA":"II Coríntios 4 a 6", "SIGLAES":"AA", "CAPES":"32", "NOMES":"Uma Igreja Liberal"},' +
+    '"OUT_22": {"CAPBIBLIA":"II Coríntios 7 a 9", "SIGLAES":"AA", "CAPES":"33", "NOMES":"Trabalho sobre Dificuldades"},' +
+    '"OUT_23": {"CAPBIBLIA":"II Coríntios 10 a 13", "SIGLAES":"AA", "CAPES":"34", "NOMES":"Ministério Consagrado"},' +
+    '"OUT_24": {"CAPBIBLIA":"Romanos 6 a 8", "SIGLAES":"AA", "CAPES":"35", "NOMES":"Salvação para os Judeus"},' +
+    '"OUT_25": {"CAPBIBLIA":"Gálatas 1 a 3", "SIGLAES":"AA", "CAPES":"36", "NOMES":"Apostasia na Galácia"},' +
+    '"OUT_26": {"CAPBIBLIA":"Gálatas 4 a 6, Atos 20", "SIGLAES":"AA", "CAPES":"37", "NOMES":"A Última Viagem de Paulo"},' +
+    '"OUT_27": {"CAPBIBLIA":"Atos 21 a 23", "SIGLAES":"AA", "CAPES":"38", "NOMES":"Paulo Prisioneiro"},' +
+    '"OUT_28": {"CAPBIBLIA":"Atos 24, Romanos 9 e 10", "SIGLAES":"AA", "CAPES":"39", "NOMES":"Perante o Tribunal de Cesaréia"},' +
+    '"OUT_29": {"CAPBIBLIA":"Atos 25, Romanos 11 e 12", "SIGLAES":"AA", "CAPES":"40", "NOMES":"Paulo Apela para César"},' +
+    '"OUT_30": {"CAPBIBLIA":"Atos 26, Romanos 13 e 14", "SIGLAES":"AA", "CAPES":"41", "NOMES":"Quase Persuadido"},' +
+    '"OUT_31": {"CAPBIBLIA":"Atos 27, Romanos 15 e 16", "SIGLAES":"AA", "CAPES":"42", "NOMES":"A Viagem e o Naufrágio"},' +
     '"NOV_1": {"CAPBIBLIA":"Filemon 1, Atos 28", "SIGLAES":"AA", "CAPES":"43", "NOMES":"Em Roma"},' +
     '"NOV_2": {"CAPBIBLIA":"Tito 1 a 3", "SIGLAES":"AA", "CAPES":"44", "NOMES":"Os da Casa de César"},' +
     '"NOV_3": {"CAPBIBLIA":"Filipenses 1 a 4", "SIGLAES":"AA", "CAPES":"45", "NOMES":"Carta de Roma"},' +
     '"NOV_4": {"CAPBIBLIA":"Colossenses 1 a 4", "SIGLAES":"AA", "CAPES":"46", "NOMES":"Em Liberdade"},' +
-    '"NOV_5": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"47", "NOMES":"A Última Prisão"},' +
-    '"NOV_6": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"48", "NOMES":"Paulo perante Nero"},' +
-    '"NOV_7": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"49", "NOMES":"Última Carta de Paulo"},' +
-    '"NOV_8": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"50", "NOMES":"Condenado a Morte"},' +
-    '"NOV_9": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"51", "NOMES":"Um Fiel Subpastor"},' +
-    '"NOV_10": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"52", "NOMES":"Firme até o Fim"},' +
-    '"NOV_11": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"53", "NOMES":"João, o Discípulo Amado"},' +
-    '"NOV_12": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"54", "NOMES":"Uma Fiel Testemunha"},' +
-    '"NOV_13": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"AA", "CAPES":"55", "NOMES":"Transformação pela Graça"},' +
+    '"NOV_5": {"CAPBIBLIA":"I Timóteo 1 a 3", "SIGLAES":"AA", "CAPES":"47", "NOMES":"A Última Prisão"},' +
+    '"NOV_6": {"CAPBIBLIA":"I Timóteo 4 a 6", "SIGLAES":"AA", "CAPES":"48", "NOMES":"Paulo perante Nero"},' +
+    '"NOV_7": {"CAPBIBLIA":"II Timóteo 1 a 4", "SIGLAES":"AA", "CAPES":"49", "NOMES":"Última Carta de Paulo"},' +
+    '"NOV_8": {"CAPBIBLIA":"I Pedro 1 a 3", "SIGLAES":"AA", "CAPES":"50", "NOMES":"Condenado a Morte"},' +
+    '"NOV_9": {"CAPBIBLIA":"I Pedro 4 a 5", "SIGLAES":"AA", "CAPES":"51", "NOMES":"Um Fiel Subpastor"},' +
+    '"NOV_10": {"CAPBIBLIA":"II Pedro 1 a 3", "SIGLAES":"AA", "CAPES":"52", "NOMES":"Firme até o Fim"},' +
+    '"NOV_11": {"CAPBIBLIA":"I João 1 a 5", "SIGLAES":"AA", "CAPES":"53", "NOMES":"João, o Discípulo Amado"},' +
+    '"NOV_12": {"CAPBIBLIA":"II João, III João, Judas", "SIGLAES":"AA", "CAPES":"54", "NOMES":"Uma Fiel Testemunha"},' +
+    '"NOV_13": {"CAPBIBLIA":"Salmos 125 a 130", "SIGLAES":"AA", "CAPES":"55", "NOMES":"Transformação pela Graça"},' +
     '"NOV_14": {"CAPBIBLIA":"Salmos 131 a 136, Apocalipse 1", "SIGLAES":"AA", "CAPES":"56", "NOMES":"Patmos"},' +
     '"NOV_15": {"CAPBIBLIA":"Salmos 137 a 140, Apocalipse 2", "SIGLAES":"AA", "CAPES":"57", "NOMES":"O Apocalipse"},' +
     '"NOV_16": {"CAPBIBLIA":"Salmos 141 a 143, Apocalipse 3", "SIGLAES":"AA", "CAPES":"58", "NOMES":"A Igreja Triunfante"},' +
     '"NOV_17": {"CAPBIBLIA":"Salmos 146 a 150", "SIGLAES":"GC", "CAPES":"**", "NOMES":"Introdução"},' +
-    '"NOV_18": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"01", "NOMES":"Predito o Destino do Mundo"},' +
-    '"NOV_19": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"02", "NOMES":"O Valor dos Mártires"},' +
-    '"NOV_20": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"03", "NOMES":"Como começaram as Trevas"},' +
-    '"NOV_21": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"04", "NOMES":"Um Poder que Difunde Luz"},' +
+    '"NOV_18": {"CAPBIBLIA":"Lucas 19:41-44, Apocalipse 4 e 5", "SIGLAES":"GC", "CAPES":"01", "NOMES":"Predito o Destino do Mundo"},' +
+    '"NOV_19": {"CAPBIBLIA":"Provérbios 1 a 3, Mateus 24:9-22, Apocalipse 8", "SIGLAES":"GC", "CAPES":"02", "NOMES":"O Valor dos Mártires"},' +
+    '"NOV_20": {"CAPBIBLIA":"Daniel 7:25, II Tessalonicenses 1 a 3", "SIGLAES":"GC", "CAPES":"03", "NOMES":"Como começaram as Trevas"},' +
+    '"NOV_21": {"CAPBIBLIA":"Apocalipse 7 a 9", "SIGLAES":"GC", "CAPES":"04", "NOMES":"Um Poder que Difunde Luz"},' +
     '"NOV_22": {"CAPBIBLIA":"Provérbios 4 a 6", "SIGLAES":"GC", "CAPES":"05", "NOMES":"Arautos de uma Era Melhor"},' +
-    '"NOV_23": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"06", "NOMES":"Dois Heróis da Idade Média"},' +
-    '"NOV_24": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"07", "NOMES":"A Influência de um Bom Lar"},' +
-    '"NOV_25": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"08", "NOMES":"O Poder Triunfante da Verdade"},' +
-    '"NOV_26": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"09", "NOMES":"Luz na Suíça"},' +
-    '"NOV_27": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"10", "NOMES":"A Europa Desperta"},' +
-    '"NOV_28": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"11", "NOMES":"Os Príncipes Amparam a Verdade"},' +
-    '"NOV_29": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"12", "NOMES":"Os Nobres da França"},' +
-    '"NOV_30": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"13", "NOMES":"Liberdade nos Países Baixos"},' +
+    '"NOV_23": {"CAPBIBLIA":"Provérbios 7 a 9", "SIGLAES":"PP", "CAPES":"06", "NOMES":"Dois Heróis da Idade Média"},' +
+    '"NOV_24": {"CAPBIBLIA":"Provérbios 10 a 12", "SIGLAES":"PP", "CAPES":"07", "NOMES":"A Influência de um Bom Lar"},' +
+    '"NOV_25": {"CAPBIBLIA":"Provérbios 13 a 15", "SIGLAES":"PP", "CAPES":"08", "NOMES":"O Poder Triunfante da Verdade"},' +
+    '"NOV_26": {"CAPBIBLIA":"Provérbios 16 a 18", "SIGLAES":"PP", "CAPES":"09", "NOMES":"Luz na Suíça"},' +
+    '"NOV_27": {"CAPBIBLIA":"Provérbios 19 a 21", "SIGLAES":"PP", "CAPES":"10", "NOMES":"A Europa Desperta"},' +
+    '"NOV_28": {"CAPBIBLIA":"Provérbios 22 a 24", "SIGLAES":"PP", "CAPES":"11", "NOMES":"Os Príncipes Amparam a Verdade"},' +
+    '"NOV_29": {"CAPBIBLIA":"Eclesiastes 1 a 3", "SIGLAES":"PP", "CAPES":"12", "NOMES":"Os Nobres da França"},' +
+    '"NOV_30": {"CAPBIBLIA":"Eclesiastes 4 a 6", "SIGLAES":"PP", "CAPES":"13", "NOMES":"Liberdade nos Países Baixos"},' +
     '"DEZ_1": {"CAPBIBLIA":"Eclesiastes 7 e 8", "SIGLAES":"GC", "CAPES":"14", "NOMES":"Progressos na Inglaterra"},' +
     '"DEZ_2": {"CAPBIBLIA":"Eclesiastes 10 e 11, Apocalipse 11", "SIGLAES":"GC", "CAPES":"15", "NOMES":"A Escritura Sagrada e a Revolução Francesa"},' +
     '"DEZ_3": {"CAPBIBLIA":"Cantares 1 a 3", "SIGLAES":"GC", "CAPES":"16", "NOMES":"O Mais Sagrado Direito do Homem"},' +
-    '"DEZ_4": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"17", "NOMES":"A Esperança que Infunde a Alegria"},' +
-    '"DEZ_5": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"18", "NOMES":"Uma Profecia muito Significativa"},' +
-    '"DEZ_6": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"19", "NOMES":"Luz para os Nossos Dias"},' +
-    '"DEZ_7": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"20", "NOMES":"Um Grande Movimento Mundial"},' +
-    '"DEZ_8": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"21", "NOMES":"A Causa da Degradação Atual"},' +
-    '"DEZ_9": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"GC", "CAPES":"22", "NOMES":"Profecias Alentadoras"},' +
+    '"DEZ_4": {"CAPBIBLIA":"Cantares 4 a 6", "SIGLAES":"GC", "CAPES":"17", "NOMES":"A Esperança que Infunde a Alegria"},' +
+    '"DEZ_5": {"CAPBIBLIA":"Cantares 7 a 8", "SIGLAES":"GC", "CAPES":"18", "NOMES":"Uma Profecia muito Significativa"},' +
+    '"DEZ_6": {"CAPBIBLIA":"Salmos 144 e 145", "SIGLAES":"GC", "CAPES":"19", "NOMES":"Luz para os Nossos Dias"},' +
+    '"DEZ_7": {"CAPBIBLIA":"Apocalipse 14:6-7", "SIGLAES":"GC", "CAPES":"20", "NOMES":"Um Grande Movimento Mundial"},' +
+    '"DEZ_8": {"CAPBIBLIA":"Hebreus 1 a 5, Apocalipse 14:8", "SIGLAES":"GC", "CAPES":"21", "NOMES":"A Causa da Degradação Atual"},' +
+    '"DEZ_9": {"CAPBIBLIA":"Provérbios 25, Apocalipse 10", "SIGLAES":"GC", "CAPES":"22", "NOMES":"Profecias Alentadoras"},' +
     '"DEZ_10": {"CAPBIBLIA":"Daniel 9:25-27, Levítico 16:14, Hebreus 8 e 9, Daniel 8", "SIGLAES":"GC", "CAPES":"23", "NOMES":"O Santuário Celestial"},' +
     '"DEZ_11": {"CAPBIBLIA":"Daniel 8:14, Daniel 9, Eclesiastes 11:9-10, Eclesiastes 12", "SIGLAES":"GC", "CAPES":"24", "NOMES":"Quando começa o Julgamento Divino"},' +
     '"DEZ_12": {"CAPBIBLIA":"Hebreus 6 e 7, Êxodo 20", "SIGLAES":"GC", "CAPES":"25", "NOMES":"A Imutável Lei de Deus"},' +
