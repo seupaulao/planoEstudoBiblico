@@ -1,4 +1,6 @@
-const livrosstring = '{"PP": "Patriarcas e Profetas","PR": "Profetas e Reis", "AA": "Atos dos Apóstolos", "DTD": "O Desejado de Todas as Nações", "PJ": "Parábolas de Jesus","GC": "O Grande Conflito"}';
+const livrosstring = '{"PP": "Patriarcas e Profetas","PR": "Profetas e Reis", "AA": "Atos dos Apóstolos", "DTN": "O Desejado de Todas as Nações", "PJ": "Parábolas de Jesus","GC": "O Grande Conflito"}';
+
+const urllivrosstring = '{"PP": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/Patriarcas%20e%20Profetas.pdf","PR": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/Profetas%20e%20Reis.pdf", "AA": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/Atos%20dos%20Ap%C3%B3stolos.pdf", "DTN": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/O%20Desejado%20de%20Todas%20as%20Na%C3%A7%C3%B5es.pdf", "PJ": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/Par%C3%A1bolas%20de%20Jesus.pdf","GC": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/O%20Grande%20Conflito%20%28condensado%29.pdf"}';
 
 const planosstring = '{' +
     '"JAN_1": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"", "NOMES":"Prefacio"},' +
