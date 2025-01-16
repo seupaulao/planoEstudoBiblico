@@ -2,6 +2,8 @@ const livrosstring = '{"PP": "Patriarcas e Profetas","PR": "Profetas e Reis", "A
 
 const urllivrosstring = '{"PP": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/Patriarcas%20e%20Profetas.pdf","PR": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/Profetas%20e%20Reis.pdf", "AA": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/Atos%20dos%20Ap%C3%B3stolos.pdf", "DTN": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/O%20Desejado%20de%20Todas%20as%20Na%C3%A7%C3%B5es.pdf", "PJ": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/Par%C3%A1bolas%20de%20Jesus.pdf","GC": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/O%20Grande%20Conflito%20%28condensado%29.pdf"}';
 
+const urlellenwhite = 'https://ellenwhiteaudio.org/pt/ebooks-egw/';
+
 const planosstring = '{' +
     '"JAN_1": {"CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"", "NOMES":"Prefacio"},' +
     '"JAN_2": {"CAPBIBLIA":"Salmos 3 a 6", "SIGLAES":"PP", "CAPES":"01", "NOMES":"Porque foi permitido o pecado?"},' +
