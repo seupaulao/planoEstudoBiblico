@@ -74,11 +74,20 @@ function calcularCorCaixa(valchave) {
 function detalhar(chave) {
     w3.show("#teladetalhar");
     w3.hide("#telainicial");
-    //console.log(chave);
+    console.log(chave);
     setChaveTemp(chave);
     carregarBotoesDetalhar();
   //  document.getElementById('chave').innerHTML = chave;
     carregarDadosDetalhar();
+    carregarDiaTal(chave);
+}
+
+function carregarDiaTal(chave) {
+    document.getElementById("diatal").innerHTML = extrairDia(chave);
+}
+
+function extrairDia(chave) {
+    return chave.split('_').join(' ');
 }
 
 function carregarDadosDetalhar() {
