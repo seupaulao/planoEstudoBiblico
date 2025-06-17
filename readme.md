@@ -17,7 +17,9 @@ simulate android
 ```
 
 ## Próximos passos
-1. Teste no dispositivo
+1. Remover erros 
+   - existem referencias erradas no texto biblico e espirito de profecia - procurar e corrigir 
+   - colocar no topo do detalhe do estudo o mes e dia para melhorar a navegação   
 2. Gerar arte
 3. Assinar
 4. Publicar

@@ -59,8 +59,9 @@ function criarMeses(qtedias, ch, nomeElemento) {
         const valchave = storage.getItem(chave);
          str += '<div id="'+chave+'" onclick="detalhar(\''+chave+'\')" class="'+calcularCorCaixa(valchave)+'">'+i+'</div>'
     }
-    const nomeMES = nomeElemento.toUpperCase();
-    document.getElementById(nomeElemento).innerHTML = "<br><div class='titulo2'>"+nomeMES+"</div><br><div class='mes'>" + str + "</div><br>";
+    let nomeMES = nomeElemento.toUpperCase();
+    if (nomeElemento == "marco") nomeMES="MARÇO";
+    document.getElementById(nomeElemento).innerHTML = "<br><div class='titulo2'>"+nomeMES+"</div><br><div align='center' class='titulo4'>Clique em um dia para estudar</div><br><div class='mes'>" + str + "</div><br>";
 }
 
 function calcularCorCaixa(valchave) {
@@ -166,6 +167,15 @@ function carregarBotoesDetalhar() {
         document.getElementById("botaoEP").innerHTML = "Marcar como Lido Texto Espírito de Profecia"; 
     }
 
+}
+
+function abrirFechar(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
 }
 
 function reiniciarDia() {

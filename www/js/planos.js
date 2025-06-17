@@ -67,7 +67,7 @@ const planosstring = '{' +
     '"MAR_1": {"CAPBIBLIA":"Juízes 1 a 4", "SIGLAES":"PP", "CAPES":"53", "NOMES":"Os primeiros juízes"},' +
     '"MAR_2": {"CAPBIBLIA":"Juízes 5 a 12", "SIGLAES":"**", "CAPES":"****", "NOMES":"****"},' +
     '"MAR_3": {"CAPBIBLIA":"Juízes 13 a 16", "SIGLAES":"PP", "CAPES":"54", "NOMES":"Sansão"},' +
-    '"MAR_4": {"CAPBIBLIA":"Salmos 17 a 21", "SIGLAES":"**", "CAPES":"****", "NOMES":"****"},' +
+    '"MAR_4": {"CAPBIBLIA":"Juízes 17 a 21", "SIGLAES":"**", "CAPES":"****", "NOMES":"****"},' +
     '"MAR_5": {"CAPBIBLIA":"Rute 1 e 2 e I Samuel 1", "SIGLAES":"PP", "CAPES":"55", "NOMES":"O Menino Samuel"},' +
     '"MAR_6": {"CAPBIBLIA":"Rute 3 e 4 e I Samuel 2", "SIGLAES":"PP", "CAPES":"56", "NOMES":"Eli e seus filhos"},' +
     '"MAR_7": {"CAPBIBLIA":"I Samuel 3 a 6; I Crônicas 13 a 15", "SIGLAES":"PP", "CAPES":"57", "NOMES":"A Arca tomada pelos filisteus"},' +
