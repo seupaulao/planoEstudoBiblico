@@ -1,6 +1,13 @@
 const livrosstring = '{"PP": "Patriarcas e Profetas","PR": "Profetas e Reis", "AA": "Atos dos Apóstolos", "DTN": "O Desejado de Todas as Nações", "PJ": "Parábolas de Jesus","GC": "O Grande Conflito"}';
 
-const urllivrosstring = '{"PP": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/Patriarcas%20e%20Profetas.pdf","PR": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/Profetas%20e%20Reis.pdf", "AA": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/Atos%20dos%20Ap%C3%B3stolos.pdf", "DTN": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/O%20Desejado%20de%20Todas%20as%20Na%C3%A7%C3%B5es.pdf", "PJ": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/Par%C3%A1bolas%20de%20Jesus.pdf","GC": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/O%20Grande%20Conflito%20%28condensado%29.pdf"}';
+const urllivrospdf = '{"PP": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/Patriarcas%20e%20Profetas.pdf","PR": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/Profetas%20e%20Reis.pdf", "AA": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/Atos%20dos%20Ap%C3%B3stolos.pdf", "DTN": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/O%20Desejado%20de%20Todas%20as%20Na%C3%A7%C3%B5es.pdf", "PJ": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/Par%C3%A1bolas%20de%20Jesus.pdf","GC": "https://ellenwhiteaudio.org/ebooks/pt/ellenwhite/O%20Grande%20Conflito%20%28condensado%29.pdf"}';
+
+const urllivros = '{"PP": "https://ellenwhiteaudio.org/pt/patriarcas-e-profetas/",'+
+                    '"PR": "https://ellenwhiteaudio.org/pt/profetas-e-reis/",'+
+                    '"AA": "",'+
+                    '"DTN": "https://ellenwhiteaudio.org/pt/desejado-de-todas-as-nacoes/",' +
+                    '"PJ": "https://ellenwhiteaudio.org/pt/parabolas-de-jesus/",'+
+                    '"GC": "https://ellenwhiteaudio.org/pt/grande-conflito/"}';
 
 const urlellenwhite = 'https://ellenwhiteaudio.org/pt/ebooks-egw/';
 
@@ -331,14 +338,14 @@ const planosstring = '{' +
     '"NOV_20": {"CAPBIBLIA":"Daniel 7:25, II Tessalonicenses 1 a 3", "SIGLAES":"GC", "CAPES":"03", "NOMES":"Como começaram as Trevas"},' +
     '"NOV_21": {"CAPBIBLIA":"Apocalipse 7 a 9", "SIGLAES":"GC", "CAPES":"04", "NOMES":"Um Poder que Difunde Luz"},' +
     '"NOV_22": {"CAPBIBLIA":"Provérbios 4 a 6", "SIGLAES":"GC", "CAPES":"05", "NOMES":"Arautos de uma Era Melhor"},' +
-    '"NOV_23": {"CAPBIBLIA":"Provérbios 7 a 9", "SIGLAES":"PP", "CAPES":"06", "NOMES":"Dois Heróis da Idade Média"},' +
-    '"NOV_24": {"CAPBIBLIA":"Provérbios 10 a 12", "SIGLAES":"PP", "CAPES":"07", "NOMES":"A Influência de um Bom Lar"},' +
-    '"NOV_25": {"CAPBIBLIA":"Provérbios 13 a 15", "SIGLAES":"PP", "CAPES":"08", "NOMES":"O Poder Triunfante da Verdade"},' +
-    '"NOV_26": {"CAPBIBLIA":"Provérbios 16 a 18", "SIGLAES":"PP", "CAPES":"09", "NOMES":"Luz na Suíça"},' +
-    '"NOV_27": {"CAPBIBLIA":"Provérbios 19 a 21", "SIGLAES":"PP", "CAPES":"10", "NOMES":"A Europa Desperta"},' +
-    '"NOV_28": {"CAPBIBLIA":"Provérbios 22 a 24", "SIGLAES":"PP", "CAPES":"11", "NOMES":"Os Príncipes Amparam a Verdade"},' +
-    '"NOV_29": {"CAPBIBLIA":"Eclesiastes 1 a 3", "SIGLAES":"PP", "CAPES":"12", "NOMES":"Os Nobres da França"},' +
-    '"NOV_30": {"CAPBIBLIA":"Eclesiastes 4 a 6", "SIGLAES":"PP", "CAPES":"13", "NOMES":"Liberdade nos Países Baixos"},' +
+    '"NOV_23": {"CAPBIBLIA":"Provérbios 7 a 9", "SIGLAES":"GC", "CAPES":"06", "NOMES":"Dois Heróis da Idade Média"},' +
+    '"NOV_24": {"CAPBIBLIA":"Provérbios 10 a 12", "SIGLAES":"GC", "CAPES":"07", "NOMES":"A Influência de um Bom Lar"},' +
+    '"NOV_25": {"CAPBIBLIA":"Provérbios 13 a 15", "SIGLAES":"GC", "CAPES":"08", "NOMES":"O Poder Triunfante da Verdade"},' +
+    '"NOV_26": {"CAPBIBLIA":"Provérbios 16 a 18", "SIGLAES":"GC", "CAPES":"09", "NOMES":"Luz na Suíça"},' +
+    '"NOV_27": {"CAPBIBLIA":"Provérbios 19 a 21", "SIGLAES":"GC", "CAPES":"10", "NOMES":"A Europa Desperta"},' +
+    '"NOV_28": {"CAPBIBLIA":"Provérbios 22 a 24", "SIGLAES":"GC", "CAPES":"11", "NOMES":"Os Príncipes Amparam a Verdade"},' +
+    '"NOV_29": {"CAPBIBLIA":"Eclesiastes 1 a 3", "SIGLAES":"GC", "CAPES":"12", "NOMES":"Os Nobres da França"},' +
+    '"NOV_30": {"CAPBIBLIA":"Eclesiastes 4 a 6", "SIGLAES":"GC", "CAPES":"13", "NOMES":"Liberdade nos Países Baixos"},' +
     '"DEZ_1": {"CAPBIBLIA":"Eclesiastes 7 e 8", "SIGLAES":"GC", "CAPES":"14", "NOMES":"Progressos na Inglaterra"},' +
     '"DEZ_2": {"CAPBIBLIA":"Eclesiastes 10 e 11, Apocalipse 11", "SIGLAES":"GC", "CAPES":"15", "NOMES":"A Escritura Sagrada e a Revolução Francesa"},' +
     '"DEZ_3": {"CAPBIBLIA":"Cantares 1 a 3", "SIGLAES":"GC", "CAPES":"16", "NOMES":"O Mais Sagrado Direito do Homem"},' +
@@ -393,6 +400,21 @@ function getNomeLivro(chave) {
     let planos = Object.assign({}, JSON.parse(livrosstring));
     return planos[chave];
 }
+
+function getURLPDF(sigla){
+    let urls = Object.assign({}, JSON.parse(urllivrospdf));
+    return urls[sigla];
+}
+//fixme problema quando lvro is null
+function getURLLivro(sigla){
+    let urls = Object.assign({}, JSON.parse(urllivros));
+    if (urls[sigla] == "") {
+        let x = getURLPDF(sigla);
+        return x;
+    }
+    return urls[sigla];
+}
+
 function reiniciar() {
     const storage = window.localStorage;
     storage.clear();

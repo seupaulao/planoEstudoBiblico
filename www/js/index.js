@@ -94,10 +94,12 @@ function carregarDadosDetalhar() {
     const valor1 = getCapitulosBibliaPlano(chaveTemp);
     document.getElementById("textoBiblia").innerHTML = "<b>Texto: </b>" + valor1;
 
-    const valor2 = getNomeLivro(getSiglaESPlano(chaveTemp));
-    document.getElementById("livroEP").innerHTML = "<b>Livro: </b>" + valor2;
+    const sigla = getSiglaESPlano(chaveTemp);
+    const valor2 = getNomeLivro(sigla);
+    const url = getURLLivro(sigla);
+    document.getElementById("livroEP").innerHTML = "<b>Livro: </b><a class='w3-btn w3-blue' href='"+url+"/'>" + valor2 + '</a>';
     const valor3 = getCapitulosESPlano( chaveTemp );
-    document.getElementById("capituloEP").innerHTML = "<b>Capitulo: </b>"+valor3;
+    document.getElementById("capituloEP").innerHTML = "<b>Capitulo: </b>"+valor3 + "";
     const valor4 = getTituloCapituloESPlano(chaveTemp);
     document.getElementById("textoEP").innerHTML = "<b>Texto: </b>" + valor4;
 }
