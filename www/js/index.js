@@ -39,35 +39,37 @@ function onDeviceReady() {
 
     console.log( lerTexto('PSA_91_1') );
 
-    //mostrarTexto('PSA_91') ;
-    //mostrarTexto('PSA_91:5-9') ;
-    //mostrarTexto('JER_1, LUK_5:20-28, PSA_91:5-9') ;
-
-    // TODO dar funcionalidade a biblia
-    // 1. a partir do detalhamento
-    //    ao clicar no botao IR A BIBLIA
-    //    mostrara o texto biblico
-    // 1.1.
-    //    No metodo mostrar texto
-    //    Colocar no topo de cada texto
-    //    A referencia que está sendo lida no momento
-    //    No formato legivel ao usuario
-    //    EX : MAT_1 == Mateus 01
-    // 2. 2 botoes = 
+   
+    // 1. 2 botoes = 
     //    NO INICIO = VOLTAR
     //    NO FIM    = SALVAR - LEITURA BIBLICA DO DIA
-    // 3. Alterar o status para LIDO no detalhamento
-    //    Marcar texto biblico LIDO no dia
+    // 2. aumentar texto do titulo de cada livro
+    // 3. centralizar botão de voltar 
 }
 
 function mostrarTexto(referencia) {
     let versos = calcularEndereco(referencia);
+    let vers = referencia.split(',');
+    
     document.getElementById('biblia').innerHTML='';
     let saida = '';
-    versos.forEach(item => {
-        saida += "<div>"+lerTexto(item)+"</div><br>";
-    })
+    for (let i=0; i<vers.length; i++) {
+        const vetor = versos[i];
+        const cabecalho = transforma(vers[i]);
+        saida += "<div align='center'><b>"+cabecalho+"</b></div><br>";
+        vetor.forEach(item => {
+            saida += "<div>"+lerTexto(item)+"</div><br>";
+        })
+    }
     document.getElementById('biblia').innerHTML=saida;
+}
+
+function transforma(verso) {
+   const va = verso.split('_');
+   const indicelivro = livros_biblia_refs.indexOf(va[0]);
+   const nomelivro = livros_biblia[indicelivro];
+   return nomelivro + " " + va[1];
+
 }
 
 
@@ -125,9 +127,17 @@ function extrairDia(chave) {
     return chave.split('_').join(' ');
 }
 
+function abrirTextoDia() {
+    w3.hide("#teladetalhar");
+    w3.show("#telatextobiblico");
+   const refsdia = getREFSDia(chaveTemp);
+   mostrarTexto(refsdia);
+}
+
 function carregarDadosDetalhar() {
     const valor1 = getCapitulosBibliaPlano(chaveTemp);
-    document.getElementById("textoBiblia").innerHTML = "<b>Texto: </b>" + valor1;
+    
+    document.getElementById("textoBiblia").innerHTML = "<b>Texto: </b>" + valor1 + "<br><button class='w3-btn w3-blue' onclick='abrirTextoDia()'>Abrir Texto Bíblico</button>";
 
     const sigla = getSiglaESPlano(chaveTemp);
     const valor2 = getNomeLivro(sigla);
@@ -143,6 +153,14 @@ function voltar() {
     w3.hide("#teladetalhar");
     w3.show("#telainicial");  
     atualizarMeses();  
+}
+
+function voltar2() {
+    w3.show("#teladetalhar");
+    w3.hide("#telatextobiblico");  
+    carregarBotoesDetalhar();
+    carregarDadosDetalhar();
+    carregarDiaTal(getChaveTemp());  
 }
 
 function salvar(chave, valor) {

@@ -404,6 +404,12 @@ const planosstring = '{' +
     let planos = Object.assign({}, JSON.parse(planosstring));
     return planos[chave].CAPBIBLIA;
 }
+
+ function getREFSDia(chave) {
+    let planos = Object.assign({}, JSON.parse(planosstring));
+    return planos[chave].REFS;
+}
+
  function getCapitulosESPlano(chave) {
     let planos = Object.assign({}, JSON.parse(planosstring));
     return planos[chave].CAPES;
@@ -495,7 +501,8 @@ function calcularEndereco(referencia) {
        let items = referencia.split(',');
        items.forEach(element => {
            let temp = getVersos( element.trim() );
-           versos = versos.concat(temp);
+           //versos = versos.concat(temp);
+           versos.push(temp);
        });
     }
     return versos;
