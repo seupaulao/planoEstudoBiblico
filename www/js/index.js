@@ -37,14 +37,7 @@ function onDeviceReady() {
     w3.hide("#teladetalhar");
     w3.hide("#telatextobiblico");
 
-    console.log( lerTexto('PSA_91_1') );
-
-   
-    // 1. 2 botoes = 
-    //    NO INICIO = VOLTAR
-    //    NO FIM    = SALVAR - LEITURA BIBLICA DO DIA
-    // 2. aumentar texto do titulo de cada livro
-    // 3. centralizar botão de voltar 
+   // console.log( lerTexto('PSA_91_1') );
 }
 
 function mostrarTexto(referencia) {
@@ -56,9 +49,9 @@ function mostrarTexto(referencia) {
     for (let i=0; i<vers.length; i++) {
         const vetor = versos[i];
         const cabecalho = transforma(vers[i]);
-        saida += "<div align='center'><b>"+cabecalho+"</b></div><br>";
+        saida += "<div align='center' style='font-size: 24px'><b>"+cabecalho+"</b></div><br>";
         vetor.forEach(item => {
-            saida += "<div>"+lerTexto(item)+"</div><br>";
+            saida += "<div>"+lerTexto(item.trim())+"</div><br>";
         })
     }
     document.getElementById('biblia').innerHTML=saida;
@@ -137,16 +130,16 @@ function abrirTextoDia() {
 function carregarDadosDetalhar() {
     const valor1 = getCapitulosBibliaPlano(chaveTemp);
     
-    document.getElementById("textoBiblia").innerHTML = "<b>Texto: </b>" + valor1 + "<br><button class='w3-btn w3-blue' onclick='abrirTextoDia()'>Abrir Texto Bíblico</button>";
+    document.getElementById("textoBiblia").innerHTML = "<div style='font-size: 18px'>Texto: <b>"+ valor1+"</b></div>" + "<br><div style='text-align: center'><button class='w3-btn w3-blue'  onclick='abrirTextoDia()'>Ler Texto Bíblico</button></div>";
 
     const sigla = getSiglaESPlano(chaveTemp);
     const valor2 = getNomeLivro(sigla);
     const url = getURLLivro(sigla);
-    document.getElementById("livroEP").innerHTML = "<b>Livro: </b><a class='w3-btn w3-blue' href='"+url+"/'>" + valor2 + '</a>';
+    document.getElementById("livroEP").innerHTML = "<span style='font-size: 18px'><b>Livro: </b><a class='w3-btn w3-blue' href='"+url+"/'>" + valor2 + '</a></span>';
     const valor3 = getCapitulosESPlano( chaveTemp );
-    document.getElementById("capituloEP").innerHTML = "<b>Capitulo: </b>"+valor3 + "";
+    document.getElementById("capituloEP").innerHTML = "<span style='font-size: 18px'><b>Capitulo: </b>"+valor3 + "</span>";
     const valor4 = getTituloCapituloESPlano(chaveTemp);
-    document.getElementById("textoEP").innerHTML = "<b>Texto: </b>" + valor4;
+    document.getElementById("textoEP").innerHTML = "<span style='font-size: 18px'><b>Texto: </b>" + valor4 + "</span>";
 }
 
 function voltar() {

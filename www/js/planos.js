@@ -89,7 +89,7 @@ const planosstring = '{' +
     '"FEV_23": {"REFS":"JOS_12,JOS_13,JOS_14,JOS_15,JOS_16,JOS_17", "CAPBIBLIA":"Josué 12 a 17", "SIGLAES":"PP", "CAPES":"47", "NOMES":"Aliança com os Gebeonitas"},' +
     '"FEV_24": {"REFS":"JOS_18,JOS_19,JOS_20,JOS_21", "CAPBIBLIA":"Josué 18 a 21", "SIGLAES":"PP", "CAPES":"48", "NOMES":"A divisão de Canaã"},' +
     '"FEV_25": {"REFS":"JOS_22,JOS_23,JOS_24", "CAPBIBLIA":"Josué 22 a 24", "SIGLAES":"PP", "CAPES":"49", "NOMES":"Prefacio"},' +
-    '"FEV_26": {"REFS":"DEU_14:22-29, NUM_18:21-32, LEV_17,LEV_18,LEV_19,LEV_20,LEV_27:30-34", "CAPBIBLIA":"Deut. 14:22-29; Núm. 18:21-32, Lev. 17 a 20; 27:30-34", "SIGLAES":"PP", "CAPES":"50", "NOMES":"O Dízimo"},' +
+    '"FEV_26": {"REFS":"DEU_14:22-29,NUM_18:21-32,LEV_17,LEV_18,LEV_19,LEV_20,LEV_27:30-34", "CAPBIBLIA":"Deut. 14:22-29; Núm. 18:21-32, Lev. 17 a 20; 27:30-34", "SIGLAES":"PP", "CAPES":"50", "NOMES":"O Dízimo"},' +
     '"FEV_27": {"REFS":"LEV_25,LEV_26", "CAPBIBLIA":"Levítico 25 e 26", "SIGLAES":"PP", "CAPES":"51", "NOMES":"O Cuidado de Deus para com os  pobres"},' +
     '"FEV_28": {"REFS":"LEV_21,LEV_22,LEV_23,LEV_24", "CAPBIBLIA":"Levítico 21 a 24", "SIGLAES":"PP", "CAPES":"52", "NOMES":"As Festas Anuais"},' +
     '"MAR_1": {"REFS":"", "CAPBIBLIA":"Juízes 1 a 4", "SIGLAES":"PP", "CAPES":"53", "NOMES":"Os primeiros juízes"},' +
