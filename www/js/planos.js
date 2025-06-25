@@ -415,6 +415,74 @@ function getURLLivro(sigla){
     return urls[sigla];
 }
 
+/**
+ * 
+ * @param String referencia
+ * 
+ * Entradas: MAT_1
+ *           MAT_1:5-8
+ *           [PSA_1, PSA_2, PSA_23:2-4] 
+ */
+
+function getVersosCapitulo(referencia) {
+             let versos = [];
+             let chave = referencia + '_1';
+             let i = 1;
+             while(blv[chave] != undefined) {
+                versos.push(chave);
+                i += 1;
+                chave = referencia + '_' + i;
+             }
+             return versos;
+}
+
+function getVersosRangeCapitulo(referencia) {
+    const partes = referencia.split(':');
+    const ref = partes[0];
+    const cauda = partes[1];
+    const porcoes = cauda.split('-');
+    const inicio = porcoes[0];
+    const fim = porcoes[1];
+    let versos=[];
+    for (let i = inicio; i <= fim; i++) {
+        versos.push(ref + '_' + i);
+    }
+    return versos;
+}
+
+function getVersos(referencia) {
+          // tem range de versiculos ?
+          let versos = [];
+          if (referencia.indexOf('-') < 0) {
+               // console.log('passou 2');
+                versos = getVersosCapitulo(referencia);
+          } else {
+               // console.log('passou 3');
+                versos = getVersosRangeCapitulo(referencia);
+          }
+          return versos;
+}
+
+function calcularEndereco(referencia) {
+    let versos = [];
+    // tem multiplas referencias
+    if (referencia.indexOf(',') < 0) {
+       //console.log('passou 1');
+       versos = getVersos(referencia);
+    } else {
+       let items = referencia.split(',');
+       items.forEach(element => {
+           let temp = getVersos( element.trim() );
+           versos = versos.concat(temp);
+       });
+    }
+    return versos;
+}
+
+function lerTexto(referencia) {
+       return blv[referencia];
+}
+
 function reiniciar() {
     const storage = window.localStorage;
     storage.clear();

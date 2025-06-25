@@ -21,5 +21,9 @@ simulate android
    - existem referencias erradas no texto biblico e espirito de profecia - procurar e corrigir 
    - colocar no topo do detalhe do estudo o mes e dia para melhorar a navegação   
 2. Gerar arte
-3. Assinar
-4. Publicar
+3. Colocar a arte no APP e testar
+4. Colocar biblia nessa versão?
+5. Verificar se ao clicar no livro de Atos dos Apostolos está indo a pagina ou 
+nesse ponto, por enquanto, remover o botão; ou colocar alerta 'indisponivel'
+6. Assinar
+7. Publicar

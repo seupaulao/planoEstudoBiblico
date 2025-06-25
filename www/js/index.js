@@ -33,8 +33,43 @@ function onDeviceReady() {
    // document.getElementById('deviceready').classList.add('ready');
 
     atualizarMeses();
+
     w3.hide("#teladetalhar");
+    w3.hide("#telatextobiblico");
+
+    console.log( lerTexto('PSA_91_1') );
+
+    //mostrarTexto('PSA_91') ;
+    //mostrarTexto('PSA_91:5-9') ;
+    //mostrarTexto('JER_1, LUK_5:20-28, PSA_91:5-9') ;
+
+    // TODO dar funcionalidade a biblia
+    // 1. a partir do detalhamento
+    //    ao clicar no botao IR A BIBLIA
+    //    mostrara o texto biblico
+    // 1.1.
+    //    No metodo mostrar texto
+    //    Colocar no topo de cada texto
+    //    A referencia que está sendo lida no momento
+    //    No formato legivel ao usuario
+    //    EX : MAT_1 == Mateus 01
+    // 2. 2 botoes = 
+    //    NO INICIO = VOLTAR
+    //    NO FIM    = SALVAR - LEITURA BIBLICA DO DIA
+    // 3. Alterar o status para LIDO no detalhamento
+    //    Marcar texto biblico LIDO no dia
 }
+
+function mostrarTexto(referencia) {
+    let versos = calcularEndereco(referencia);
+    document.getElementById('biblia').innerHTML='';
+    let saida = '';
+    versos.forEach(item => {
+        saida += "<div>"+lerTexto(item)+"</div><br>";
+    })
+    document.getElementById('biblia').innerHTML=saida;
+}
+
 
 function atualizarMeses() {
     criarMeses(31,'JAN','janeiro');
