@@ -51,7 +51,7 @@ function mostrarTexto(referencia) {
         const cabecalho = transforma(vers[i]);
         saida += "<div align='center' style='font-size: 24px'><b>"+cabecalho+"</b></div><br>";
         vetor.forEach(item => {
-            saida += "<div>"+lerTexto(item.trim())+"</div><br>";
+            saida += "<div style='font-size: 20px'>"+lerTexto(item.trim())+"</div><br>";
         })
     }
     document.getElementById('biblia').innerHTML=saida;
