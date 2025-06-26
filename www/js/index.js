@@ -129,13 +129,22 @@ function abrirTextoDia() {
 
 function carregarDadosDetalhar() {
     const valor1 = getCapitulosBibliaPlano(chaveTemp);
-    
-    document.getElementById("textoBiblia").innerHTML = "<div style='font-size: 18px'>Texto: <b>"+ valor1+"</b></div>" + "<br><div style='text-align: center'><button class='w3-btn w3-blue'  onclick='abrirTextoDia()'>Ler Texto Bíblico</button></div>";
 
+    if (valor1.indexOf("Geral") > 0) {
+       document.getElementById("textoBiblia").innerHTML = "<div style='font-size: 18px'>Texto: <b>"+ valor1+"</b></div>";
+    } else {
+        document.getElementById("textoBiblia").innerHTML = "<div style='font-size: 18px'>Texto: <b>"+ valor1+"</b></div>" + "<br><div style='text-align: center'><button class='w3-btn w3-blue'  onclick='abrirTextoDia()'>Ler Texto Bíblico</button></div>";
+    }
+    
     const sigla = getSiglaESPlano(chaveTemp);
     const valor2 = getNomeLivro(sigla);
     const url = getURLLivro(sigla);
-    document.getElementById("livroEP").innerHTML = "<span style='font-size: 18px'><b>Livro: </b><a class='w3-btn w3-blue' href='"+url+"/'>" + valor2 + '</a></span>';
+    //console.log("URL:", url);
+    if (url != null) {
+        document.getElementById("livroEP").innerHTML = "<span style='font-size: 18px'><b>Livro: </b><a class='w3-btn w3-blue' href='"+url+"/'>" + valor2 + '</a></span>';
+    } else {
+        document.getElementById("livroEP").innerHTML = "<span style='font-size: 18px'><b>Livro: </b>" + valor2 + '</span>';
+    }
     const valor3 = getCapitulosESPlano( chaveTemp );
     document.getElementById("capituloEP").innerHTML = "<span style='font-size: 18px'><b>Capitulo: </b>"+valor3 + "</span>";
     const valor4 = getTituloCapituloESPlano(chaveTemp);

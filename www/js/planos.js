@@ -298,14 +298,14 @@ const planosstring = '{' +
     '"SET_20": {"REFS":"PSA_84,PSA_85,PSA_86,MAT_28:18-20", "CAPBIBLIA":"Salmos 84 a 86, Mateus 28:18-20", "SIGLAES":"AA", "CAPES":"01", "NOMES":"O Propósito de Deus para Sua Igreja"},' +
     '"SET_21": {"REFS":"PSA_87,PSA_88,ACT_1", "CAPBIBLIA":"Salmos 87 e 88, Atos 1", "SIGLAES":"AA", "CAPES":"02", "NOMES":"O Preparo dos Doze"},' +
     '"SET_22": {"REFS":"PSA_89,PSA_90,ACT_1:8", "CAPBIBLIA":"Salmos 89 e 90, Atos 1:8", "SIGLAES":"AA", "CAPES":"03", "NOMES":"A Grande Missão"},' +
-    '"SET_23": {"REFS":"", "CAPBIBLIA":"Salmos 92 e 93, Atos 2:1-13", "SIGLAES":"AA", "CAPES":"04", "NOMES":"O Pentecostes"},' +
-    '"SET_24": {"REFS":"", "CAPBIBLIA":"Salmos 94 a 96, Mateus 3:11, Atos 2:14-47", "SIGLAES":"AA", "CAPES":"05", "NOMES":"O Dom do Espírito"},' +
-    '"SET_25": {"REFS":"", "CAPBIBLIA":"Salmos 97, Atos 3 e 4", "SIGLAES":"AA", "CAPES":"06", "NOMES":"A Porta do Tenplo"},' +
-    '"SET_26": {"REFS":"", "CAPBIBLIA":"Salmos 98 a 100, Atos 5:1-11", "SIGLAES":"AA", "CAPES":"07", "NOMES":"Uma Advertência a Hipocrisia"},' +
-    '"SET_27": {"REFS":"", "CAPBIBLIA":"Salmos 101 e 102, Atos 5:12-42", "SIGLAES":"AA", "CAPES":"08", "NOMES":"Perante o Sinédrio"},' +
-    '"SET_28": {"REFS":"", "CAPBIBLIA":"Salmos 103 e 104 e Atos 6", "SIGLAES":"AA", "CAPES":"09", "NOMES":"Os Sete Diáconos"},' +
-    '"SET_29": {"REFS":"", "CAPBIBLIA":"Salmos 105 e 106 e Atos 7, ", "SIGLAES":"AA", "CAPES":"10", "NOMES":"O Primeiro Mártir Cristão"},' +
-    '"SET_30": {"REFS":"", "CAPBIBLIA":"Salmos 107 e 108 e Atos 8", "SIGLAES":"AA", "CAPES":"11", "NOMES":"O Evangelho em Samaria"},' +
+    '"SET_23": {"REFS":"PSA_92,PSA_93,ACT_2:1-13", "CAPBIBLIA":"Salmos 92 e 93, Atos 2:1-13", "SIGLAES":"AA", "CAPES":"04", "NOMES":"O Pentecostes"},' +
+    '"SET_24": {"REFS":"PSA_94,PSA_95,PSA_96,MAT_3:11,ACT_2:14-47", "CAPBIBLIA":"Salmos 94 a 96, Mateus 3:11, Atos 2:14-47", "SIGLAES":"AA", "CAPES":"05", "NOMES":"O Dom do Espírito"},' +
+    '"SET_25": {"REFS":"PSA_97,ACT_3,ACT_4", "CAPBIBLIA":"Salmos 97, Atos 3 e 4", "SIGLAES":"AA", "CAPES":"06", "NOMES":"A Porta do Tenplo"},' +
+    '"SET_26": {"REFS":"PSA_98,PSA_99,PSA_100,ACT_5:1-11", "CAPBIBLIA":"Salmos 98 a 100, Atos 5:1-11", "SIGLAES":"AA", "CAPES":"07", "NOMES":"Uma Advertência a Hipocrisia"},' +
+    '"SET_27": {"REFS":"PSA_101,PSA_102,ACT_5:12-42", "CAPBIBLIA":"Salmos 101 e 102, Atos 5:12-42", "SIGLAES":"AA", "CAPES":"08", "NOMES":"Perante o Sinédrio"},' +
+    '"SET_28": {"REFS":"PSA_103,PSA_104,ACT_6", "CAPBIBLIA":"Salmos 103 e 104 e Atos 6", "SIGLAES":"AA", "CAPES":"09", "NOMES":"Os Sete Diáconos"},' +
+    '"SET_29": {"REFS":"PSA_105,PSA_106,ACT_7", "CAPBIBLIA":"Salmos 105 e 106 e Atos 7, ", "SIGLAES":"AA", "CAPES":"10", "NOMES":"O Primeiro Mártir Cristão"},' +
+    '"SET_30": {"REFS":"PSA_107,PSA_108,ACT_8", "CAPBIBLIA":"Salmos 107 e 108 e Atos 8", "SIGLAES":"AA", "CAPES":"11", "NOMES":"O Evangelho em Samaria"},' +
     '"OUT_1": {"REFS":"", "CAPBIBLIA":"Salmos 109 e 110, Atos 9:1-18", "SIGLAES":"AA", "CAPES":"12", "NOMES":"De perseguidor a Discípulo"},' +
     '"OUT_2": {"REFS":"", "CAPBIBLIA":"Salmos 111 a 113, Atos 9:19-30", "SIGLAES":"AA", "CAPES":"13", "NOMES":"Dias de Preparo"},' +
     '"OUT_3": {"REFS":"", "CAPBIBLIA":"Salmos 114 e 115, Atos 9 a 11", "SIGLAES":"AA", "CAPES":"14", "NOMES":"Um Inquiridor da Verdade"},' +
@@ -395,7 +395,7 @@ const planosstring = '{' +
     '"DEZ_26": {"REFS":"", "CAPBIBLIA":"Salmos 91, Apocalipse 15 e 16, Daniel 10 a 12", "SIGLAES":"GC", "CAPES":"39", "NOMES":"Aproxima-se o Tempo de Angústia"},' +
     '"DEZ_27": {"REFS":"", "CAPBIBLIA":"Apocalipse 6 e 19", "SIGLAES":"GC", "CAPES":"40", "NOMES":"O Livramento dos Justos"},' +
     '"DEZ_28": {"REFS":"", "CAPBIBLIA":"Provérbios 30 e 31, Apocalipse 20", "SIGLAES":"GC", "CAPES":"41", "NOMES":"Será desolada a Terra"},' +
-    '"DEZ_29": {"REFS":"", "CAPBIBLIA":"Salmos 46, Apocalipse 21 e 22", "SIGLAES":"GC", "CAPES":"42", "NOMES":"O Final e Glorioso Triunfo"},' +
+    '"DEZ_29": {"REFS":"PSA_46,REV_21,REV_22", "CAPBIBLIA":"Salmos 46, Apocalipse 21 e 22", "SIGLAES":"GC", "CAPES":"42", "NOMES":"O Final e Glorioso Triunfo"},' +
     '"DEZ_30": {"REFS":"", "CAPBIBLIA":"Revisão Geral do Velho Testamento", "SIGLAES":"**", "CAPES":"**", "NOMES":"****"},' +
     '"DEZ_31": {"REFS":"", "CAPBIBLIA":"Revisão Geral do Novo Testamento", "SIGLAES":"**", "CAPES":"**", "NOMES":"****"}' +
 '}';
@@ -435,10 +435,10 @@ function getURLPDF(sigla){
 //fixme problema quando lvro is null
 function getURLLivro(sigla){
     let urls = Object.assign({}, JSON.parse(urllivros));
-    if (urls[sigla] == "") {
-        let x = getURLPDF(sigla);
+    if (sigla == "AA") {
+        //let x = getURLPDF(sigla);
         //alert('ARQUIVO INDISPONÍVEL');
-        return x;
+        return null;
     }
     return urls[sigla];
 }
