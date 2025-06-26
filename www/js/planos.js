@@ -92,131 +92,131 @@ const planosstring = '{' +
     '"FEV_26": {"REFS":"DEU_14:22-29,NUM_18:21-32,LEV_17,LEV_18,LEV_19,LEV_20,LEV_27:30-34", "CAPBIBLIA":"Deut. 14:22-29; Núm. 18:21-32, Lev. 17 a 20; 27:30-34", "SIGLAES":"PP", "CAPES":"50", "NOMES":"O Dízimo"},' +
     '"FEV_27": {"REFS":"LEV_25,LEV_26", "CAPBIBLIA":"Levítico 25 e 26", "SIGLAES":"PP", "CAPES":"51", "NOMES":"O Cuidado de Deus para com os  pobres"},' +
     '"FEV_28": {"REFS":"LEV_21,LEV_22,LEV_23,LEV_24", "CAPBIBLIA":"Levítico 21 a 24", "SIGLAES":"PP", "CAPES":"52", "NOMES":"As Festas Anuais"},' +
-    '"MAR_1": {"REFS":"", "CAPBIBLIA":"Juízes 1 a 4", "SIGLAES":"PP", "CAPES":"53", "NOMES":"Os primeiros juízes"},' +
-    '"MAR_2": {"REFS":"", "CAPBIBLIA":"Juízes 5 a 12", "SIGLAES":"**", "CAPES":"****", "NOMES":"****"},' +
-    '"MAR_3": {"REFS":"", "CAPBIBLIA":"Juízes 13 a 16", "SIGLAES":"PP", "CAPES":"54", "NOMES":"Sansão"},' +
-    '"MAR_4": {"REFS":"", "CAPBIBLIA":"Juízes 17 a 21", "SIGLAES":"**", "CAPES":"****", "NOMES":"****"},' +
-    '"MAR_5": {"REFS":"", "CAPBIBLIA":"Rute 1 e 2 e I Samuel 1", "SIGLAES":"PP", "CAPES":"55", "NOMES":"O Menino Samuel"},' +
-    '"MAR_6": {"REFS":"", "CAPBIBLIA":"Rute 3 e 4 e I Samuel 2", "SIGLAES":"PP", "CAPES":"56", "NOMES":"Eli e seus filhos"},' +
-    '"MAR_7": {"REFS":"", "CAPBIBLIA":"I Samuel 3 a 6; I Crônicas 13 a 15", "SIGLAES":"PP", "CAPES":"57", "NOMES":"A Arca tomada pelos filisteus"},' +
-    '"MAR_8": {"REFS":"", "CAPBIBLIA":"I Reis 4:38-41; II Reis 2:15-18; I Samuel 7 a 9", "SIGLAES":"PP", "CAPES":"58", "NOMES":"A Escola dos Profetas"},' +
-    '"MAR_9": {"REFS":"", "CAPBIBLIA":"I Samuel 10 a 12", "SIGLAES":"PP", "CAPES":"59", "NOMES":"O Primeiro Rei de Israel"},' +
-    '"MAR_10": {"REFS":"", "CAPBIBLIA":"I Samuel 13 a 14", "SIGLAES":"PP", "CAPES":"60", "NOMES":"A Presunção de Saul"},' +
-    '"MAR_11": {"REFS":"", "CAPBIBLIA":"I Samuel 15", "SIGLAES":"PP", "CAPES":"61", "NOMES":"A Rejeição de Saul"},' +
-    '"MAR_12": {"REFS":"", "CAPBIBLIA":"I Samuel 16", "SIGLAES":"PP", "CAPES":"62", "NOMES":"A Unção de Davi"},' +
-    '"MAR_13": {"REFS":"", "CAPBIBLIA":"I Samuel 17 a 19", "SIGLAES":"PP", "CAPES":"63", "NOMES":"Davi e Golias"},' +
-    '"MAR_14": {"REFS":"", "CAPBIBLIA":"Salmos 34 e 57; I Samuel 20 a 22", "SIGLAES":"PP", "CAPES":"64", "NOMES":"A Fuga de Davi"},' +
-    '"MAR_15": {"REFS":"", "CAPBIBLIA":"Salmos 121 e I Samuel 23 a 26", "SIGLAES":"PP", "CAPES":"65", "NOMES":"A Magnanimidade de Davi"},' +
-    '"MAR_16": {"REFS":"", "CAPBIBLIA":"I Samuel 27 e 31 e I Crônicas 10", "SIGLAES":"PP", "CAPES":"66", "NOMES":"A Morte de Saul"},' +
-    '"MAR_17": {"REFS":"", "CAPBIBLIA":"I Samuel 28", "SIGLAES":"PP", "CAPES":"67", "NOMES":"Feitiçaria Antiga e Moderna"},' +
-    '"MAR_18": {"REFS":"", "CAPBIBLIA":"I Samuel 29 e 30 e II Samuel 1", "SIGLAES":"PP", "CAPES":"68", "NOMES":"Davi em Ziclague"},' +
-    '"MAR_19": {"REFS":"", "CAPBIBLIA":"II Samuel 2 a 5 e I Crônicas 11", "SIGLAES":"PP", "CAPES":"69", "NOMES":"Davi chamado ao trono"},' +
-    '"MAR_20": {"REFS":"", "CAPBIBLIA":"II Samuel 6 a 10 e I Crônicas 12, 16 e 17", "SIGLAES":"PP", "CAPES":"70", "NOMES":"O Reinado de Davi"},' +
-    '"MAR_21": {"REFS":"", "CAPBIBLIA":"Salmos 32 e 51, II Samuel 11 a 14", "SIGLAES":"PP", "CAPES":"71", "NOMES":"O Pecado e Arrependimento de Davi"},' +
-    '"MAR_22": {"REFS":"", "CAPBIBLIA":"Salmos 3, II Samuel 15 a 20", "SIGLAES":"PP", "CAPES":"72", "NOMES":"Rebelião de Absalão"},' +
-    '"MAR_23": {"REFS":"", "CAPBIBLIA":"Salmos 18, II Samuel 21 a 24", "SIGLAES":"PP", "CAPES":"73", "NOMES":"Os Últimos anos de Davi"},' +
-    '"MAR_24": {"REFS":"", "CAPBIBLIA":"I Reis 1 a 3", "SIGLAES":"**", "CAPES":"****", "NOMES":"****"},' +
-    '"MAR_25": {"REFS":"", "CAPBIBLIA":"II Crônicas 1, I Reis 4 a 6", "SIGLAES":"PR", "CAPES":"01", "NOMES":"Salomão"},' +
-    '"MAR_26": {"REFS":"", "CAPBIBLIA":"II Crônicas 2, I Reis 7 e 8", "SIGLAES":"PR", "CAPES":"02", "NOMES":"O Templo e sua Dedicação"},' +
-    '"MAR_27": {"REFS":"", "CAPBIBLIA":"II Crônicas 3, I Reis 9 e 10", "SIGLAES":"PR", "CAPES":"03", "NOMES":"Orgulho da Prosperidade"},' +
-    '"MAR_28": {"REFS":"", "CAPBIBLIA":"II Crônicas 4 e 5, I Reis 11", "SIGLAES":"PR", "CAPES":"04", "NOMES":"Resultado da Transgressão"},' +
-    '"MAR_29": {"REFS":"", "CAPBIBLIA":"II Crônicas 6 a 9", "SIGLAES":"PR", "CAPES":"05", "NOMES":"O Arrependimento"},' +
-    '"MAR_30": {"REFS":"", "CAPBIBLIA":"I Reis 12 e 13", "SIGLAES":"PR", "CAPES":"06", "NOMES":"O Reino Resgatado"},' +
-    '"MAR_31": {"REFS":"", "CAPBIBLIA":"II Crônicas 10 e 11, I Reis 14", "SIGLAES":"PR", "CAPES":"07", "NOMES":"Jeroboão"},' +
-    '"ABR_1": {"REFS":"", "CAPBIBLIA":"II Crônicas 12, I Reis 15 e 16", "SIGLAES":"PR", "CAPES":"08", "NOMES":"Apostasia Nacional"},' +
-    '"ABR_2": {"REFS":"", "CAPBIBLIA":"II Crônicas 13 e 14, I Reis 17", "SIGLAES":"PR", "CAPES":"09", "NOMES":"Elias o Tesbita"},' +
-    '"ABR_3": {"REFS":"", "CAPBIBLIA":"II Crônicas 15 e 16, I Reis 18:1-19", "SIGLAES":"PR", "CAPES":"10", "NOMES":"A Voz de Severa Repreensão"},' +
-    '"ABR_4": {"REFS":"", "CAPBIBLIA":"II Crônicas 18 e 19, I Reis 18:20-46", "SIGLAES":"PR", "CAPES":"11", "NOMES":"O Carmelo"},' +
-    '"ABR_5": {"REFS":"", "CAPBIBLIA":"II Crônicas 20 e 21", "SIGLAES":"PR", "CAPES":"12", "NOMES":"De Jezreel a Horebe"},' +
-    '"ABR_6": {"REFS":"", "CAPBIBLIA":"II Crônicas 22 e 23 e I Reis 19", "SIGLAES":"PR", "CAPES":"13", "NOMES":"Que Fazer aqui?"},' +
-    '"ABR_7": {"REFS":"", "CAPBIBLIA":"I Reis 20 a 22", "SIGLAES":"PR", "CAPES":"14", "NOMES":"No Espírito e Virtude de Elias"},' +
-    '"ABR_8": {"REFS":"", "CAPBIBLIA":"I Crônicas 1 e 2, II Crônicas 17", "SIGLAES":"PR", "CAPES":"15", "NOMES":"Josafá"},' +
-    '"ABR_9": {"REFS":"", "CAPBIBLIA":"I Crônicas 3 e 4", "SIGLAES":"PR", "CAPES":"16", "NOMES":"A queda da Casa de Acabe"},' +
-    '"ABR_10": {"REFS":"", "CAPBIBLIA":"I Crônicas 5, II Reis 1 e 2", "SIGLAES":"PR", "CAPES":"17", "NOMES":"O Chamado de Elizeu"},' +
-    '"ABR_11": {"REFS":"", "CAPBIBLIA":"II Reis 3 e 12", "SIGLAES":"PR", "CAPES":"18", "NOMES":"As Águas Purificadas"},' +
-    '"ABR_12": {"REFS":"", "CAPBIBLIA":"II Reis 4,13 e 14", "SIGLAES":"PR", "CAPES":"19", "NOMES":"Um Profeta de Paz"},' +
-    '"ABR_13": {"REFS":"", "CAPBIBLIA":"II Reis 5 a 8", "SIGLAES":"PR", "CAPES":"20", "NOMES":"Naamã"},' +
-    '"ABR_14": {"REFS":"", "CAPBIBLIA":"II Reis 9 a 11", "SIGLAES":"PR", "CAPES":"21", "NOMES":"O Fim do Ministério de Elizeu"},' +
-    '"ABR_15": {"REFS":"", "CAPBIBLIA":"Jonas 1 a 4", "SIGLAES":"PR", "CAPES":"22", "NOMES":"A Grande Cidade de Nínive"},' +
-    '"ABR_16": {"REFS":"", "CAPBIBLIA":"Oséias 1 a 3", "SIGLAES":"PR", "CAPES":"23", "NOMES":"O Cativeiro Assírio"},' +
-    '"ABR_17": {"REFS":"", "CAPBIBLIA":"Oséias 4 a 10", "SIGLAES":"**", "CAPES":"****", "NOMES":"****"},' +
-    '"ABR_18": {"REFS":"", "CAPBIBLIA":"Oséias 11 a 14", "SIGLAES":"PR", "CAPES":"24", "NOMES":"Destr: Porque lhe Falta Conhecimento"},' +
-    '"ABR_19": {"REFS":"", "CAPBIBLIA":"Isaías 1 a 6", "SIGLAES":"PR", "CAPES":"25", "NOMES":"O chamado de Isaías"},' +
-    '"ABR_20": {"REFS":"", "CAPBIBLIA":"Isaías 40 a 42", "SIGLAES":"PR", "CAPES":"26", "NOMES":"Eis aqui está o vosso Deus"},' +
-    '"ABR_21": {"REFS":"", "CAPBIBLIA":"II Crônicas 28, II Reis 15 a 17", "SIGLAES":"PR", "CAPES":"27", "NOMES":"Acaz"},' +
-    '"ABR_22": {"REFS":"", "CAPBIBLIA":"Isaías 37 a 39, II Reis 18 a 20", "SIGLAES":"PR", "CAPES":"28", "NOMES":"Ezequias"},' +
-    '"ABR_23": {"REFS":"", "CAPBIBLIA":"II Crônicas 29 a 32", "SIGLAES":"PR", "CAPES":"29", "NOMES":"Os Embaixadores de Babilônia"},' +
-    '"ABR_24": {"REFS":"", "CAPBIBLIA":"Naum 1 a 3", "SIGLAES":"PR", "CAPES":"30", "NOMES":"Liberto da Assíria"},' +
-    '"ABR_25": {"REFS":"", "CAPBIBLIA":"Isaías 7 a 11", "SIGLAES":"PR", "CAPES":"31", "NOMES":"Esperança para os Gentios"},' +
-    '"ABR_26": {"REFS":"", "CAPBIBLIA":"II Reis 21 a 23", "SIGLAES":"PR", "CAPES":"32", "NOMES":"Manassés e Josias"},' +
-    '"ABR_27": {"REFS":"", "CAPBIBLIA":"II Crônicas 24 a 27", "SIGLAES":"PR", "CAPES":"33", "NOMES":"O Livro da Lei"},' +
-    '"ABR_28": {"REFS":"", "CAPBIBLIA":"Jeremias 1 a 3", "SIGLAES":"PR", "CAPES":"34", "NOMES":"Jeremias"},' +
-    '"ABR_29": {"REFS":"", "CAPBIBLIA":"II Reis 24 e 25", "SIGLAES":"PR", "CAPES":"35", "NOMES":"A Condenação Iminente"},' +
-    '"ABR_30": {"REFS":"", "CAPBIBLIA":"II Crônicas 33 a 36", "SIGLAES":"PR", "CAPES":"36", "NOMES":"O Último Rei de Judá"},' +
-    '"MAI_1": {"REFS":"", "CAPBIBLIA":"Jeremias 36 a 38", "SIGLAES":"PR", "CAPES":"37", "NOMES":"Levados Cativos para a Babilônia"},' +
-    '"MAI_2": {"REFS":"", "CAPBIBLIA":"Jeremias 29 a 32", "SIGLAES":"PR", "CAPES":"38", "NOMES":"Luz em Meio as Trevas"},' +
-    '"MAI_3": {"REFS":"", "CAPBIBLIA":"I Crônicas 6 a 8, Daniel 1", "SIGLAES":"PR", "CAPES":"39", "NOMES":"Daniel na Corte Babilônica"},' +
-    '"MAI_4": {"REFS":"", "CAPBIBLIA":"Daniel 2, 7 e 8", "SIGLAES":"PR", "CAPES":"40", "NOMES":"O Sonho de Nabucodonosor"},' +
-    '"MAI_5": {"REFS":"", "CAPBIBLIA":"I Crônicas 9, Daniel 3", "SIGLAES":"PR", "CAPES":"41", "NOMES":"A Fornalha Ardente"},' +
-    '"MAI_6": {"REFS":"", "CAPBIBLIA":"Daniel 4", "SIGLAES":"PR", "CAPES":"42", "NOMES":"A Verdadeira Grandeza"},' +
-    '"MAI_7": {"REFS":"", "CAPBIBLIA":"Daniel 5", "SIGLAES":"PR", "CAPES":"43", "NOMES":"O Vigia Invisível"},' +
-    '"MAI_8": {"REFS":"", "CAPBIBLIA":"Daniel 6", "SIGLAES":"PR", "CAPES":"44", "NOMES":"Na Cova dos Leões"},' +
-    '"MAI_9": {"REFS":"", "CAPBIBLIA":"Esdras 1 a 3", "SIGLAES":"PR", "CAPES":"45", "NOMES":"A Volta do Exílio"},' +
-    '"MAI_10": {"REFS":"", "CAPBIBLIA":"Ageu 1 e 2", "SIGLAES":"PR", "CAPES":"46", "NOMES":"Os Profetas de Deus o ajudavam"},' +
-    '"MAI_11": {"REFS":"", "CAPBIBLIA":"Zacarias 1 a 4", "SIGLAES":"PR", "CAPES":"47", "NOMES":"Josué e o Anjo"},' +
-    '"MAI_12": {"REFS":"", "CAPBIBLIA":"Zacarias 5 a 9", "SIGLAES":"PR", "CAPES":"48", "NOMES":"Nem por Força e Nem por Violência"},' +
-    '"MAI_13": {"REFS":"", "CAPBIBLIA":"Ester 1 a 3", "SIGLAES":"PR", "CAPES":"49", "NOMES":"Nos dias da Rainha Ester"},' +
-    '"MAI_14": {"REFS":"", "CAPBIBLIA":"Esdras 4 a 6", "SIGLAES":"PR", "CAPES":"50", "NOMES":"Esdras, o Sacerdote e Escriba"},' +
-    '"MAI_15": {"REFS":"", "CAPBIBLIA":"Esdras 7 a 10", "SIGLAES":"PR", "CAPES":"51", "NOMES":"Um Reavivamento Espiritual"},' +
-    '"MAI_16": {"REFS":"", "CAPBIBLIA":"Neemias 1 e 2", "SIGLAES":"PR", "CAPES":"52", "NOMES":"Um Homem Oportuno"},' +
-    '"MAI_17": {"REFS":"", "CAPBIBLIA":"Ester 4, Neemias 3 e 4", "SIGLAES":"PR", "CAPES":"53", "NOMES":"Os Reconstrutores do Muro"},' +
-    '"MAI_18": {"REFS":"", "CAPBIBLIA":"Ester 5 a 7, Neemias 5", "SIGLAES":"PR", "CAPES":"54", "NOMES":"Condenadas a Extorção"},' +
-    '"MAI_19": {"REFS":"", "CAPBIBLIA":"Ester 8 a 10, Neemias 6", "SIGLAES":"PR", "CAPES":"55", "NOMES":"Ciladas dos Pagãos"},' +
-    '"MAI_20": {"REFS":"", "CAPBIBLIA":"Neemias 7 a 10", "SIGLAES":"PR", "CAPES":"56", "NOMES":"Instruídos na Lei de Deus"},' +
-    '"MAI_21": {"REFS":"", "CAPBIBLIA":"Neemias 11 a 13", "SIGLAES":"PP", "CAPES":"57", "NOMES":"Reforma"},' +
-    '"MAI_22": {"REFS":"", "CAPBIBLIA":"Zacarias 10 a 14", "SIGLAES":"PP", "CAPES":"58", "NOMES":"A Vinda de um Libertador"},' +
-    '"MAI_23": {"REFS":"", "CAPBIBLIA":"Malaquias 1 a 4", "SIGLAES":"PP", "CAPES":"59", "NOMES":"A Casa de Israel"},' +
-    '"MAI_24": {"REFS":"", "CAPBIBLIA":"Isaías 63 a 66", "SIGLAES":"PP", "CAPES":"60", "NOMES":"Visões da Glõria Futura"},' +
-    '"MAI_25": {"REFS":"", "CAPBIBLIA":"Marcos 1 a 3", "SIGLAES":"DTN", "CAPES":"****", "NOMES":"****"},' +
-    '"MAI_26": {"REFS":"", "CAPBIBLIA":"Isaías 12 e 13, Mateus 1", "SIGLAES":"DTN", "CAPES":"01", "NOMES":"Deus Conosco"},' +
-    '"MAI_27": {"REFS":"", "CAPBIBLIA":"Isaías 14 a 16", "SIGLAES":"DTN", "CAPES":"02", "NOMES":"O Povo Escolhido"},' +
-    '"MAI_28": {"REFS":"", "CAPBIBLIA":"Isaías 17 a 19", "SIGLAES":"DTN", "CAPES":"03", "NOMES":"A Plenitude dos tempos"},' +
-    '"MAI_29": {"REFS":"", "CAPBIBLIA":"Isaías 20 a 22, Lucas 2:1-20", "SIGLAES":"DTN", "CAPES":"04", "NOMES":"Vos Nasceu Hoje o Salvador"},' +
-    '"MAI_30": {"REFS":"", "CAPBIBLIA":"Isaías 23 a 25, Lucas 2:21-38", "SIGLAES":"DTN", "CAPES":"05", "NOMES":"A Dedicação"},' +
-    '"MAI_31": {"REFS":"", "CAPBIBLIA":"Isaías 26 a 28, Mateus 2", "SIGLAES":"DTN", "CAPES":"06", "NOMES":"Vimos a Sua Estrela"},' +
-    '"JUN_1": {"REFS":"", "CAPBIBLIA":"Isaías 29 e 30, Lucas 2:39-40", "SIGLAES":"DTN", "CAPES":"07", "NOMES":"Em Criança"},' +
-    '"JUN_2": {"REFS":"", "CAPBIBLIA":"Isaías 31 a 33, Lucas 2:41-52", "SIGLAES":"DTN", "CAPES":"08", "NOMES":"A Visita Pascoal"},' +
-    '"JUN_3": {"REFS":"", "CAPBIBLIA":"Isaías 34 a 36", "SIGLAES":"DTN", "CAPES":"09", "NOMES":"Dias de Luta"},' +
-    '"JUN_4": {"REFS":"", "CAPBIBLIA":"Mateus 3:1-12, Lucas 1", "SIGLAES":"DTN", "CAPES":"10", "NOMES":"A Voz do Deserto"},' +
-    '"JUN_5": {"REFS":"", "CAPBIBLIA":"Isaías 43 a 45, Mateus 3:13-17", "SIGLAES":"DTN", "CAPES":"11", "NOMES":"O Batismo"},' +
-    '"JUN_6": {"REFS":"", "CAPBIBLIA":"Isaías 46, Mateus 4", "SIGLAES":"DTN", "CAPES":"12", "NOMES":"A Tentação"},' +
-    '"JUN_7": {"REFS":"", "CAPBIBLIA":"Isaías 47 a 49, Lucas 4:1-13", "SIGLAES":"DTN", "CAPES":"13", "NOMES":"A Vitória"},' +
-    '"JUN_8": {"REFS":"", "CAPBIBLIA":"Isaías 50 a 51, João 1", "SIGLAES":"DTN", "CAPES":"14", "NOMES":"Achamos o Messias"},' +
-    '"JUN_9": {"REFS":"", "CAPBIBLIA":"Isaías 52 a 53, João 2:1-11", "SIGLAES":"DTN", "CAPES":"15", "NOMES":"Nas Bodas"},' +
-    '"JUN_10": {"REFS":"", "CAPBIBLIA":"Isaías 54 e 55, João 2:12-25", "SIGLAES":"DTN", "CAPES":"16", "NOMES":"Em Seu Templo"},' +
-    '"JUN_11": {"REFS":"", "CAPBIBLIA":"Isaías 60 a 62, João 3:1-21", "SIGLAES":"DTN", "CAPES":"17", "NOMES":"Nicodemos"},' +
-    '"JUN_12": {"REFS":"", "CAPBIBLIA":"Jeremias 4 a 6, João 3:22-36", "SIGLAES":"DTN", "CAPES":"18", "NOMES":"É Necessário que Ele Cresça"},' +
-    '"JUN_13": {"REFS":"", "CAPBIBLIA":"Jeremias 7 a 8, João 4:1-42", "SIGLAES":"DTN", "CAPES":"19", "NOMES":"Junto ao poço de Jacó"},' +
-    '"JUN_14": {"REFS":"", "CAPBIBLIA":"Jeremias 9 a 11, João 4:43-54", "SIGLAES":"DTN", "CAPES":"20", "NOMES":"Se não virdes Sinais e Milagres"},' +
-    '"JUN_15": {"REFS":"", "CAPBIBLIA":"Jeremias 12 e 13, João 5", "SIGLAES":"DTN", "CAPES":"21", "NOMES":"Betesda e o Sinédrio"},' +
-    '"JUN_16": {"REFS":"", "CAPBIBLIA":"Jeremias 14 e 15, Marcos 5 e 6:1-29", "SIGLAES":"DTN", "CAPES":"22", "NOMES":"Prisão e Morte de João Batista"},' +
-    '"JUN_17": {"REFS":"", "CAPBIBLIA":"Mateus 15 a 17", "SIGLAES":"DTN", "CAPES":"23", "NOMES":"O reino dos Céus está Próximo"},' +
-    '"JUN_18": {"REFS":"", "CAPBIBLIA":"Lucas 3 e 4:14-44", "SIGLAES":"DTN", "CAPES":"24", "NOMES":"Não é este o Filho do Carpinteiro?"},' +
-    '"JUN_19": {"REFS":"", "CAPBIBLIA":"Jeremias 16 a 18, Lucas 5:1-11", "SIGLAES":"DTN", "CAPES":"25", "NOMES":"O Chamado a Beira do Mar"},' +
-    '"JUN_20": {"REFS":"", "CAPBIBLIA":"Jeremias 19 a 21", "SIGLAES":"DTN", "CAPES":"26", "NOMES":"Em Cafarnaum"},' +
-    '"JUN_21": {"REFS":"", "CAPBIBLIA":"Jeremias 22 a 24, Lucas 5:12-26", "SIGLAES":"DTN", "CAPES":"27", "NOMES":"Podes tornar-me limpo"},' +
-    '"JUN_22": {"REFS":"", "CAPBIBLIA":"Jeremias 25 a 26, Lucas 5:27-39", "SIGLAES":"DTN", "CAPES":"28", "NOMES":"Levi Mateus"},' +
-    '"JUN_23": {"REFS":"", "CAPBIBLIA":"Isaías 57 a 59, Mateus 12:1-14, Lucas 6:1-11", "SIGLAES":"DTN", "CAPES":"29", "NOMES":"O Sábado"},' +
-    '"JUN_24": {"REFS":"", "CAPBIBLIA":"Jeremias 27 e 28, Lucas 6:12-49", "SIGLAES":"DTN", "CAPES":"30", "NOMES":"Nomeou Doze"},' +
-    '"JUN_25": {"REFS":"", "CAPBIBLIA":"Mateus 5 a 7", "SIGLAES":"DTN", "CAPES":"31", "NOMES":"O Sermão da Montanha"},' +
-    '"JUN_26": {"REFS":"", "CAPBIBLIA":"Mateus 8 e 9, Lucas 7", "SIGLAES":"DTN", "CAPES":"32", "NOMES":"O Centurião"},' +
-    '"JUN_27": {"REFS":"", "CAPBIBLIA":"Mateus 10 e 14, Mateus 12:15-50", "SIGLAES":"DTN", "CAPES":"33", "NOMES":"Quem são os Meus Irmãos?"},' +
-    '"JUN_28": {"REFS":"", "CAPBIBLIA":"Jeremias 33 e 34, Mateus 11", "SIGLAES":"DTN", "CAPES":"34", "NOMES":"O Convite"},' +
-    '"JUN_29": {"REFS":"", "CAPBIBLIA":"Jeremias 35, Lucas 8:1-39", "SIGLAES":"DTN", "CAPES":"35", "NOMES":"Cala-te, Aquieta-te"},' +
-    '"JUN_30": {"REFS":"", "CAPBIBLIA":"Jeremias 39 a 41, Lucas 8:40-56", "SIGLAES":"DTN", "CAPES":"36", "NOMES":"O Toque da Fé"},' +
-    '"JUL_1": {"REFS":"", "CAPBIBLIA":"Jeremias 42 e 43, Lucas 9:1-27", "SIGLAES":"DTN", "CAPES":"37", "NOMES":"Os Primeiros Evangelistas"},' +
-    '"JUL_2": {"REFS":"", "CAPBIBLIA":"Jeremias 44 e 45, Marcos 6:30-56", "SIGLAES":"DTN", "CAPES":"38", "NOMES":"Vinde...Repousai um Pouco"},' +
-    '"JUL_3": {"REFS":"", "CAPBIBLIA":"Jeremias 46 a 47, João 6:1-15", "SIGLAES":"DTN", "CAPES":"39", "NOMES":"Dai-lhe Vós de Comer"},' +
+    '"MAR_1": {"REFS":"JDG_1,JDG_2,JDG_3,JDG_4", "CAPBIBLIA":"Juízes 1 a 4", "SIGLAES":"PP", "CAPES":"53", "NOMES":"Os primeiros juízes"},' +
+    '"MAR_2": {"REFS":"JDG_5,JDG_6,JDG_7,JDG_8,JDG_9,JDG_10,JDG_11,JDG_12", "CAPBIBLIA":"Juízes 5 a 12", "SIGLAES":"**", "CAPES":"****", "NOMES":"****"},' +
+    '"MAR_3": {"REFS":"JDG_13,JDG_14,JDG_15,JDG_16", "CAPBIBLIA":"Juízes 13 a 16", "SIGLAES":"PP", "CAPES":"54", "NOMES":"Sansão"},' +
+    '"MAR_4": {"REFS":"JDG_17,JDG_18,JDG_19,JDG_20,JDG_21", "CAPBIBLIA":"Juízes 17 a 21", "SIGLAES":"**", "CAPES":"****", "NOMES":"****"},' +
+    '"MAR_5": {"REFS":"RUT_1,RUT_2,1SA_1", "CAPBIBLIA":"Rute 1 e 2 e I Samuel 1", "SIGLAES":"PP", "CAPES":"55", "NOMES":"O Menino Samuel"},' +
+    '"MAR_6": {"REFS":"RUT_3,RUT_4,1SA_2", "CAPBIBLIA":"Rute 3 e 4 e I Samuel 2", "SIGLAES":"PP", "CAPES":"56", "NOMES":"Eli e seus filhos"},' +
+    '"MAR_7": {"REFS":"1SA_3,1SA_4,1SA_5,1SA_6,1CH_13,1CH_14,1CH_15", "CAPBIBLIA":"I Samuel 3 a 6; I Crônicas 13 a 15", "SIGLAES":"PP", "CAPES":"57", "NOMES":"A Arca tomada pelos filisteus"},' +
+    '"MAR_8": {"REFS":"1KI_4:38-41,2KI_2:15-18,1SA_7,1SA_8,1SA_9", "CAPBIBLIA":"I Reis 4:38-41; II Reis 2:15-18; I Samuel 7 a 9", "SIGLAES":"PP", "CAPES":"58", "NOMES":"A Escola dos Profetas"},' +
+    '"MAR_9": {"REFS":"1SA_10,1SA_11,1SA_12", "CAPBIBLIA":"I Samuel 10 a 12", "SIGLAES":"PP", "CAPES":"59", "NOMES":"O Primeiro Rei de Israel"},' +
+    '"MAR_10": {"REFS":"1SA_13,1SA_14", "CAPBIBLIA":"I Samuel 13 a 14", "SIGLAES":"PP", "CAPES":"60", "NOMES":"A Presunção de Saul"},' +
+    '"MAR_11": {"REFS":"1SA_15", "CAPBIBLIA":"I Samuel 15", "SIGLAES":"PP", "CAPES":"61", "NOMES":"A Rejeição de Saul"},' +
+    '"MAR_12": {"REFS":"1SA_16", "CAPBIBLIA":"I Samuel 16", "SIGLAES":"PP", "CAPES":"62", "NOMES":"A Unção de Davi"},' +
+    '"MAR_13": {"REFS":"1SA_17,1SA_18,1SA_19", "CAPBIBLIA":"I Samuel 17 a 19", "SIGLAES":"PP", "CAPES":"63", "NOMES":"Davi e Golias"},' +
+    '"MAR_14": {"REFS":"PSA_34,PSA_57,1SA_20,1SA_21,1SA_22", "CAPBIBLIA":"Salmos 34 e 57; I Samuel 20 a 22", "SIGLAES":"PP", "CAPES":"64", "NOMES":"A Fuga de Davi"},' +
+    '"MAR_15": {"REFS":"PSA_121,1SA_23,1SA_24,1SA_25,1SA_26", "CAPBIBLIA":"Salmos 121 e I Samuel 23 a 26", "SIGLAES":"PP", "CAPES":"65", "NOMES":"A Magnanimidade de Davi"},' +
+    '"MAR_16": {"REFS":"1SA_27,1SA_31,1CH_10", "CAPBIBLIA":"I Samuel 27 e 31 e I Crônicas 10", "SIGLAES":"PP", "CAPES":"66", "NOMES":"A Morte de Saul"},' +
+    '"MAR_17": {"REFS":"1SA_28", "CAPBIBLIA":"I Samuel 28", "SIGLAES":"PP", "CAPES":"67", "NOMES":"Feitiçaria Antiga e Moderna"},' +
+    '"MAR_18": {"REFS":"1SA_29,1SA_30,2SA_1", "CAPBIBLIA":"I Samuel 29 e 30 e II Samuel 1", "SIGLAES":"PP", "CAPES":"68", "NOMES":"Davi em Ziclague"},' +
+    '"MAR_19": {"REFS":"2SA_2,2SA_3,2SA_4,2SA_5,1CH_11", "CAPBIBLIA":"II Samuel 2 a 5 e I Crônicas 11", "SIGLAES":"PP", "CAPES":"69", "NOMES":"Davi chamado ao trono"},' +
+    '"MAR_20": {"REFS":"2SA_6,2SA_7,2SA_8,2SA_9,2SA_10,1CH_12,1CH_16,1CH_17", "CAPBIBLIA":"II Samuel 6 a 10 e I Crônicas 12, 16 e 17", "SIGLAES":"PP", "CAPES":"70", "NOMES":"O Reinado de Davi"},' +
+    '"MAR_21": {"REFS":"PSA_32,PSA_51,2SA_11,2SA_12,2SA_13,2SA_14", "CAPBIBLIA":"Salmos 32 e 51, II Samuel 11 a 14", "SIGLAES":"PP", "CAPES":"71", "NOMES":"O Pecado e Arrependimento de Davi"},' +
+    '"MAR_22": {"REFS":"PSA_3,2SA_15,2SA_16,2SA_17,2SA_18,2SA_19,2SA_20", "CAPBIBLIA":"Salmos 3, II Samuel 15 a 20", "SIGLAES":"PP", "CAPES":"72", "NOMES":"Rebelião de Absalão"},' +
+    '"MAR_23": {"REFS":"PSA_18,2SA_21,2SA_22,2SA_23,2SA_24", "CAPBIBLIA":"Salmos 18, II Samuel 21 a 24", "SIGLAES":"PP", "CAPES":"73", "NOMES":"Os Últimos anos de Davi"},' +
+    '"MAR_24": {"REFS":"1KI_1,1KI_2,1KI_3", "CAPBIBLIA":"I Reis 1 a 3", "SIGLAES":"**", "CAPES":"****", "NOMES":"****"},' +
+    '"MAR_25": {"REFS":"2CH_1,1KI_4,1KI_5,1KI_6", "CAPBIBLIA":"II Crônicas 1, I Reis 4 a 6", "SIGLAES":"PR", "CAPES":"01", "NOMES":"Salomão"},' +
+    '"MAR_26": {"REFS":"2CH_2,1KI_7,1KI_8", "CAPBIBLIA":"II Crônicas 2, I Reis 7 e 8", "SIGLAES":"PR", "CAPES":"02", "NOMES":"O Templo e sua Dedicação"},' +
+    '"MAR_27": {"REFS":"2CH_3,1KI_9,1KI_10", "CAPBIBLIA":"II Crônicas 3, I Reis 9 e 10", "SIGLAES":"PR", "CAPES":"03", "NOMES":"Orgulho da Prosperidade"},' +
+    '"MAR_28": {"REFS":"2CH_4,2CH_5,1KI_11", "CAPBIBLIA":"II Crônicas 4 e 5, I Reis 11", "SIGLAES":"PR", "CAPES":"04", "NOMES":"Resultado da Transgressão"},' +
+    '"MAR_29": {"REFS":"2CH_6,2CH_7,2CH_8,2CH_9", "CAPBIBLIA":"II Crônicas 6 a 9", "SIGLAES":"PR", "CAPES":"05", "NOMES":"O Arrependimento"},' +
+    '"MAR_30": {"REFS":"1KI_12,1KI_13", "CAPBIBLIA":"I Reis 12 e 13", "SIGLAES":"PR", "CAPES":"06", "NOMES":"O Reino Resgatado"},' +
+    '"MAR_31": {"REFS":"2CH_10,2CH_11,1KI_14", "CAPBIBLIA":"II Crônicas 10 e 11, I Reis 14", "SIGLAES":"PR", "CAPES":"07", "NOMES":"Jeroboão"},' +
+    '"ABR_1": {"REFS":"2CH_12,1KI_15,1KI_16", "CAPBIBLIA":"II Crônicas 12, I Reis 15 e 16", "SIGLAES":"PR", "CAPES":"08", "NOMES":"Apostasia Nacional"},' +
+    '"ABR_2": {"REFS":"2CH_13,2CH_14,1KI_17", "CAPBIBLIA":"II Crônicas 13 e 14, I Reis 17", "SIGLAES":"PR", "CAPES":"09", "NOMES":"Elias o Tesbita"},' +
+    '"ABR_3": {"REFS":"2CH_15,2CH_16,1KI_18:1-19", "CAPBIBLIA":"II Crônicas 15 e 16, I Reis 18:1-19", "SIGLAES":"PR", "CAPES":"10", "NOMES":"A Voz de Severa Repreensão"},' +
+    '"ABR_4": {"REFS":"2CH_18,2CH_19,1KI_18:20-46", "CAPBIBLIA":"II Crônicas 18 e 19, I Reis 18:20-46", "SIGLAES":"PR", "CAPES":"11", "NOMES":"O Carmelo"},' +
+    '"ABR_5": {"REFS":"2CH_20,2CH_21", "CAPBIBLIA":"II Crônicas 20 e 21", "SIGLAES":"PR", "CAPES":"12", "NOMES":"De Jezreel a Horebe"},' +
+    '"ABR_6": {"REFS":"2CH_22,2CH_23,1KI_19", "CAPBIBLIA":"II Crônicas 22 e 23 e I Reis 19", "SIGLAES":"PR", "CAPES":"13", "NOMES":"Que Fazer aqui?"},' +
+    '"ABR_7": {"REFS":"1KI_20,1KI_21,1KI_22", "CAPBIBLIA":"I Reis 20 a 22", "SIGLAES":"PR", "CAPES":"14", "NOMES":"No Espírito e Virtude de Elias"},' +
+    '"ABR_8": {"REFS":"1CH_1,1CH_2,2CH_17", "CAPBIBLIA":"I Crônicas 1 e 2, II Crônicas 17", "SIGLAES":"PR", "CAPES":"15", "NOMES":"Josafá"},' +
+    '"ABR_9": {"REFS":"1CH_3,1CH_4", "CAPBIBLIA":"I Crônicas 3 e 4", "SIGLAES":"PR", "CAPES":"16", "NOMES":"A queda da Casa de Acabe"},' +
+    '"ABR_10": {"REFS":"1CH_5,2KI_1,2KI_2", "CAPBIBLIA":"I Crônicas 5, II Reis 1 e 2", "SIGLAES":"PR", "CAPES":"17", "NOMES":"O Chamado de Elizeu"},' +
+    '"ABR_11": {"REFS":"2KI_3,2KI_12", "CAPBIBLIA":"II Reis 3 e 12", "SIGLAES":"PR", "CAPES":"18", "NOMES":"As Águas Purificadas"},' +
+    '"ABR_12": {"REFS":"2KI_4,2KI_13,2KI_14", "CAPBIBLIA":"II Reis 4,13 e 14", "SIGLAES":"PR", "CAPES":"19", "NOMES":"Um Profeta de Paz"},' +
+    '"ABR_13": {"REFS":"2KI_5,2KI_6,2KI_7,2KI_8", "CAPBIBLIA":"II Reis 5 a 8", "SIGLAES":"PR", "CAPES":"20", "NOMES":"Naamã"},' +
+    '"ABR_14": {"REFS":"2KI_9,2KI_10,2KI_11", "CAPBIBLIA":"II Reis 9 a 11", "SIGLAES":"PR", "CAPES":"21", "NOMES":"O Fim do Ministério de Elizeu"},' +
+    '"ABR_15": {"REFS":"JON_1,JON_2,JON_3,JON_4", "CAPBIBLIA":"Jonas 1 a 4", "SIGLAES":"PR", "CAPES":"22", "NOMES":"A Grande Cidade de Nínive"},' +
+    '"ABR_16": {"REFS":"HOS_1,HOS_2,HOS_3", "CAPBIBLIA":"Oséias 1 a 3", "SIGLAES":"PR", "CAPES":"23", "NOMES":"O Cativeiro Assírio"},' +
+    '"ABR_17": {"REFS":"HOS_4,HOS_5,HOS_6,HOS_7,HOS_8,HOS_9,HOS_10", "CAPBIBLIA":"Oséias 4 a 10", "SIGLAES":"**", "CAPES":"****", "NOMES":"****"},' +
+    '"ABR_18": {"REFS":"HOS_11,HOS_12,HOS_13,HOS_14", "CAPBIBLIA":"Oséias 11 a 14", "SIGLAES":"PR", "CAPES":"24", "NOMES":"Destr: Porque lhe Falta Conhecimento"},' +
+    '"ABR_19": {"REFS":"ISA_1,ISA_2,ISA_3,ISA_4,ISA_5,ISA_6", "CAPBIBLIA":"Isaías 1 a 6", "SIGLAES":"PR", "CAPES":"25", "NOMES":"O chamado de Isaías"},' +
+    '"ABR_20": {"REFS":"ISA_40,ISA_41,ISA_42", "CAPBIBLIA":"Isaías 40 a 42", "SIGLAES":"PR", "CAPES":"26", "NOMES":"Eis aqui está o vosso Deus"},' +
+    '"ABR_21": {"REFS":"2CH_28,2KI_15,2KI_16,2KI_17", "CAPBIBLIA":"II Crônicas 28, II Reis 15 a 17", "SIGLAES":"PR", "CAPES":"27", "NOMES":"Acaz"},' +
+    '"ABR_22": {"REFS":"ISA_27,ISA_38,ISA_39,2KI_18,2KI_19,2KI_20", "CAPBIBLIA":"Isaías 37 a 39, II Reis 18 a 20", "SIGLAES":"PR", "CAPES":"28", "NOMES":"Ezequias"},' +
+    '"ABR_23": {"REFS":"2CH_29,2CH_30,2CH_31,2CH_32", "CAPBIBLIA":"II Crônicas 29 a 32", "SIGLAES":"PR", "CAPES":"29", "NOMES":"Os Embaixadores de Babilônia"},' +
+    '"ABR_24": {"REFS":"NAH_1,NAH_2,NAH_3", "CAPBIBLIA":"Naum 1 a 3", "SIGLAES":"PR", "CAPES":"30", "NOMES":"Liberto da Assíria"},' +
+    '"ABR_25": {"REFS":"ISA_7,ISA_8,ISA_9,ISA_10,ISA_11", "CAPBIBLIA":"Isaías 7 a 11", "SIGLAES":"PR", "CAPES":"31", "NOMES":"Esperança para os Gentios"},' +
+    '"ABR_26": {"REFS":"2KI_21,2KI_22,2KI_23", "CAPBIBLIA":"II Reis 21 a 23", "SIGLAES":"PR", "CAPES":"32", "NOMES":"Manassés e Josias"},' +
+    '"ABR_27": {"REFS":"2CH_24,2CH_25,2CH_26,2CH_27", "CAPBIBLIA":"II Crônicas 24 a 27", "SIGLAES":"PR", "CAPES":"33", "NOMES":"O Livro da Lei"},' +
+    '"ABR_28": {"REFS":"JER_1,JER_2,JER_3", "CAPBIBLIA":"Jeremias 1 a 3", "SIGLAES":"PR", "CAPES":"34", "NOMES":"Jeremias"},' +
+    '"ABR_29": {"REFS":"2KI_24,2KI_25", "CAPBIBLIA":"II Reis 24 e 25", "SIGLAES":"PR", "CAPES":"35", "NOMES":"A Condenação Iminente"},' +
+    '"ABR_30": {"REFS":"2CH_33,2CH_34,2CH_35,2CH_36", "CAPBIBLIA":"II Crônicas 33 a 36", "SIGLAES":"PR", "CAPES":"36", "NOMES":"O Último Rei de Judá"},' +
+    '"MAI_1": {"REFS":"JER_36,JER_37,JER_38", "CAPBIBLIA":"Jeremias 36 a 38", "SIGLAES":"PR", "CAPES":"37", "NOMES":"Levados Cativos para a Babilônia"},' +
+    '"MAI_2": {"REFS":"JER_29,JER_30,JER_31,JER_32", "CAPBIBLIA":"Jeremias 29 a 32", "SIGLAES":"PR", "CAPES":"38", "NOMES":"Luz em Meio as Trevas"},' +
+    '"MAI_3": {"REFS":"1CH_6,1CH_7,1CH_8,DAN_1", "CAPBIBLIA":"I Crônicas 6 a 8, Daniel 1", "SIGLAES":"PR", "CAPES":"39", "NOMES":"Daniel na Corte Babilônica"},' +
+    '"MAI_4": {"REFS":"DAN_2,DAN_7,DAN_8", "CAPBIBLIA":"Daniel 2, 7 e 8", "SIGLAES":"PR", "CAPES":"40", "NOMES":"O Sonho de Nabucodonosor"},' +
+    '"MAI_5": {"REFS":"1CH_9,DAN_3", "CAPBIBLIA":"I Crônicas 9, Daniel 3", "SIGLAES":"PR", "CAPES":"41", "NOMES":"A Fornalha Ardente"},' +
+    '"MAI_6": {"REFS":"DAN_4", "CAPBIBLIA":"Daniel 4", "SIGLAES":"PR", "CAPES":"42", "NOMES":"A Verdadeira Grandeza"},' +
+    '"MAI_7": {"REFS":"DAN_5", "CAPBIBLIA":"Daniel 5", "SIGLAES":"PR", "CAPES":"43", "NOMES":"O Vigia Invisível"},' +
+    '"MAI_8": {"REFS":"DAN_6", "CAPBIBLIA":"Daniel 6", "SIGLAES":"PR", "CAPES":"44", "NOMES":"Na Cova dos Leões"},' +
+    '"MAI_9": {"REFS":"EZR_1,EZR_2,EZR_3", "CAPBIBLIA":"Esdras 1 a 3", "SIGLAES":"PR", "CAPES":"45", "NOMES":"A Volta do Exílio"},' +
+    '"MAI_10": {"REFS":"HAG_1,HAG_2", "CAPBIBLIA":"Ageu 1 e 2", "SIGLAES":"PR", "CAPES":"46", "NOMES":"Os Profetas de Deus o ajudavam"},' +
+    '"MAI_11": {"REFS":"ZEC_1,ZEC_2,ZEC_3,ZEC_4", "CAPBIBLIA":"Zacarias 1 a 4", "SIGLAES":"PR", "CAPES":"47", "NOMES":"Josué e o Anjo"},' +
+    '"MAI_12": {"REFS":"ZEC_5,ZEC_6,ZEC_7,ZEC_8,ZEC_9", "CAPBIBLIA":"Zacarias 5 a 9", "SIGLAES":"PR", "CAPES":"48", "NOMES":"Nem por Força e Nem por Violência"},' +
+    '"MAI_13": {"REFS":"EST_1,EST_2,EST_3", "CAPBIBLIA":"Ester 1 a 3", "SIGLAES":"PR", "CAPES":"49", "NOMES":"Nos dias da Rainha Ester"},' +
+    '"MAI_14": {"REFS":"EZR_4,EZR_5,EZR_6", "CAPBIBLIA":"Esdras 4 a 6", "SIGLAES":"PR", "CAPES":"50", "NOMES":"Esdras, o Sacerdote e Escriba"},' +
+    '"MAI_15": {"REFS":"EZR_7,EZR_8,EZR_9,EZR_10", "CAPBIBLIA":"Esdras 7 a 10", "SIGLAES":"PR", "CAPES":"51", "NOMES":"Um Reavivamento Espiritual"},' +
+    '"MAI_16": {"REFS":"NEH_1,NEH_2", "CAPBIBLIA":"Neemias 1 e 2", "SIGLAES":"PR", "CAPES":"52", "NOMES":"Um Homem Oportuno"},' +
+    '"MAI_17": {"REFS":"EST_4,NEH_3,NEH_4", "CAPBIBLIA":"Ester 4, Neemias 3 e 4", "SIGLAES":"PR", "CAPES":"53", "NOMES":"Os Reconstrutores do Muro"},' +
+    '"MAI_18": {"REFS":"EST_5,EST_6,EST_7,NEH_5", "CAPBIBLIA":"Ester 5 a 7, Neemias 5", "SIGLAES":"PR", "CAPES":"54", "NOMES":"Condenadas a Extorção"},' +
+    '"MAI_19": {"REFS":"EST_8,EST_9,EST_10,NEH_6", "CAPBIBLIA":"Ester 8 a 10, Neemias 6", "SIGLAES":"PR", "CAPES":"55", "NOMES":"Ciladas dos Pagãos"},' +
+    '"MAI_20": {"REFS":"NEH_7,NEH_8,NEH_9,NEH_10", "CAPBIBLIA":"Neemias 7 a 10", "SIGLAES":"PR", "CAPES":"56", "NOMES":"Instruídos na Lei de Deus"},' +
+    '"MAI_21": {"REFS":"NEH_11,NEH_12,NEH_13", "CAPBIBLIA":"Neemias 11 a 13", "SIGLAES":"PP", "CAPES":"57", "NOMES":"Reforma"},' +
+    '"MAI_22": {"REFS":"ZEC_10,ZEC_11,ZEC_12,ZEC_13,ZEC_14", "CAPBIBLIA":"Zacarias 10 a 14", "SIGLAES":"PP", "CAPES":"58", "NOMES":"A Vinda de um Libertador"},' +
+    '"MAI_23": {"REFS":"MAL_1,MAL_2,MAL_3,MAL_4", "CAPBIBLIA":"Malaquias 1 a 4", "SIGLAES":"PP", "CAPES":"59", "NOMES":"A Casa de Israel"},' +
+    '"MAI_24": {"REFS":"ISA_63,ISA_64,ISA_65,ISA_66", "CAPBIBLIA":"Isaías 63 a 66", "SIGLAES":"PP", "CAPES":"60", "NOMES":"Visões da Glõria Futura"},' +
+    '"MAI_25": {"REFS":"MAR_1,MAR_2,MAR_3", "CAPBIBLIA":"Marcos 1 a 3", "SIGLAES":"DTN", "CAPES":"****", "NOMES":"****"},' +
+    '"MAI_26": {"REFS":"ISA_12,ISA_13,MAT_1", "CAPBIBLIA":"Isaías 12 e 13, Mateus 1", "SIGLAES":"DTN", "CAPES":"01", "NOMES":"Deus Conosco"},' +
+    '"MAI_27": {"REFS":"ISA_14,ISA_15,ISA_16", "CAPBIBLIA":"Isaías 14 a 16", "SIGLAES":"DTN", "CAPES":"02", "NOMES":"O Povo Escolhido"},' +
+    '"MAI_28": {"REFS":"ISA_17,ISA_18,ISA_19", "CAPBIBLIA":"Isaías 17 a 19", "SIGLAES":"DTN", "CAPES":"03", "NOMES":"A Plenitude dos tempos"},' +
+    '"MAI_29": {"REFS":"ISA_20,ISA_21,ISA_22,LUK_2:1-20", "CAPBIBLIA":"Isaías 20 a 22, Lucas 2:1-20", "SIGLAES":"DTN", "CAPES":"04", "NOMES":"Vos Nasceu Hoje o Salvador"},' +
+    '"MAI_30": {"REFS":"ISA_23,ISA_24,ISA_25,LUK_2:21-38", "CAPBIBLIA":"Isaías 23 a 25, Lucas 2:21-38", "SIGLAES":"DTN", "CAPES":"05", "NOMES":"A Dedicação"},' +
+    '"MAI_31": {"REFS":"ISA_26,ISA_27,ISA_28,MAT_2", "CAPBIBLIA":"Isaías 26 a 28, Mateus 2", "SIGLAES":"DTN", "CAPES":"06", "NOMES":"Vimos a Sua Estrela"},' +
+    '"JUN_1": {"REFS":"ISA_29,ISA_30,LUK_2:39-40", "CAPBIBLIA":"Isaías 29 e 30, Lucas 2:39-40", "SIGLAES":"DTN", "CAPES":"07", "NOMES":"Em Criança"},' +
+    '"JUN_2": {"REFS":"ISA_31,ISA_32,ISA_33,LUK_2:41-52", "CAPBIBLIA":"Isaías 31 a 33, Lucas 2:41-52", "SIGLAES":"DTN", "CAPES":"08", "NOMES":"A Visita Pascoal"},' +
+    '"JUN_3": {"REFS":"ISA_34,ISA_35,ISA_36", "CAPBIBLIA":"Isaías 34 a 36", "SIGLAES":"DTN", "CAPES":"09", "NOMES":"Dias de Luta"},' +
+    '"JUN_4": {"REFS":"MAT_3:1-12,LUK_1", "CAPBIBLIA":"Mateus 3:1-12, Lucas 1", "SIGLAES":"DTN", "CAPES":"10", "NOMES":"A Voz do Deserto"},' +
+    '"JUN_5": {"REFS":"ISA_43,ISA_44,ISA_45,MAT_3:13-17", "CAPBIBLIA":"Isaías 43 a 45, Mateus 3:13-17", "SIGLAES":"DTN", "CAPES":"11", "NOMES":"O Batismo"},' +
+    '"JUN_6": {"REFS":"ISA_46,MAT_4", "CAPBIBLIA":"Isaías 46, Mateus 4", "SIGLAES":"DTN", "CAPES":"12", "NOMES":"A Tentação"},' +
+    '"JUN_7": {"REFS":"ISA_47,ISA_48,ISA_49,LUK_4:1-13", "CAPBIBLIA":"Isaías 47 a 49, Lucas 4:1-13", "SIGLAES":"DTN", "CAPES":"13", "NOMES":"A Vitória"},' +
+    '"JUN_8": {"REFS":"ISA_50,ISA_51,JOH_1", "CAPBIBLIA":"Isaías 50 a 51, João 1", "SIGLAES":"DTN", "CAPES":"14", "NOMES":"Achamos o Messias"},' +
+    '"JUN_9": {"REFS":"ISA_52,ISA_53,JOH_2:1-11", "CAPBIBLIA":"Isaías 52 a 53, João 2:1-11", "SIGLAES":"DTN", "CAPES":"15", "NOMES":"Nas Bodas"},' +
+    '"JUN_10": {"REFS":"ISA_54,ISA_55,JOH_2:12-25", "CAPBIBLIA":"Isaías 54 e 55, João 2:12-25", "SIGLAES":"DTN", "CAPES":"16", "NOMES":"Em Seu Templo"},' +
+    '"JUN_11": {"REFS":"ISA_60,ISA_61,ISA_62,JOH_3:1-21", "CAPBIBLIA":"Isaías 60 a 62, João 3:1-21", "SIGLAES":"DTN", "CAPES":"17", "NOMES":"Nicodemos"},' +
+    '"JUN_12": {"REFS":"JER_4,JER_5,JER_6,JOH_3:22-26", "CAPBIBLIA":"Jeremias 4 a 6, João 3:22-36", "SIGLAES":"DTN", "CAPES":"18", "NOMES":"É Necessário que Ele Cresça"},' +
+    '"JUN_13": {"REFS":"JER_7,JER_8,JOH_4:1-42", "CAPBIBLIA":"Jeremias 7 a 8, João 4:1-42", "SIGLAES":"DTN", "CAPES":"19", "NOMES":"Junto ao poço de Jacó"},' +
+    '"JUN_14": {"REFS":"JER_9,JER_10,JER_11,JOH_4:43-54", "CAPBIBLIA":"Jeremias 9 a 11, João 4:43-54", "SIGLAES":"DTN", "CAPES":"20", "NOMES":"Se não virdes Sinais e Milagres"},' +
+    '"JUN_15": {"REFS":"JER_12,JER_13,JOH_5", "CAPBIBLIA":"Jeremias 12 e 13, João 5", "SIGLAES":"DTN", "CAPES":"21", "NOMES":"Betesda e o Sinédrio"},' +
+    '"JUN_16": {"REFS":"JER_14,JER_15,MAR_5,MAR_6:1-29", "CAPBIBLIA":"Jeremias 14 e 15, Marcos 5 e 6:1-29", "SIGLAES":"DTN", "CAPES":"22", "NOMES":"Prisão e Morte de João Batista"},' +
+    '"JUN_17": {"REFS":"MAT_15,MAT_16,MAT_17", "CAPBIBLIA":"Mateus 15 a 17", "SIGLAES":"DTN", "CAPES":"23", "NOMES":"O reino dos Céus está Próximo"},' +
+    '"JUN_18": {"REFS":"LUK_3,LUK_4:14-44", "CAPBIBLIA":"Lucas 3 e 4:14-44", "SIGLAES":"DTN", "CAPES":"24", "NOMES":"Não é este o Filho do Carpinteiro?"},' +
+    '"JUN_19": {"REFS":"JER_16,JER_17,JER_18,LUK_5:1-11", "CAPBIBLIA":"Jeremias 16 a 18, Lucas 5:1-11", "SIGLAES":"DTN", "CAPES":"25", "NOMES":"O Chamado a Beira do Mar"},' +
+    '"JUN_20": {"REFS":"JER_19,JER_20,JER_21", "CAPBIBLIA":"Jeremias 19 a 21", "SIGLAES":"DTN", "CAPES":"26", "NOMES":"Em Cafarnaum"},' +
+    '"JUN_21": {"REFS":"JER_22,JER_23,JER_24,LUK_5:12-26", "CAPBIBLIA":"Jeremias 22 a 24, Lucas 5:12-26", "SIGLAES":"DTN", "CAPES":"27", "NOMES":"Podes tornar-me limpo"},' +
+    '"JUN_22": {"REFS":"JER_25,JER_26,LUK_5:27-39", "CAPBIBLIA":"Jeremias 25 a 26, Lucas 5:27-39", "SIGLAES":"DTN", "CAPES":"28", "NOMES":"Levi Mateus"},' +
+    '"JUN_23": {"REFS":"ISA_57,ISA_58,ISA_59,MAT_12:1-14,LUK_6:1-11", "CAPBIBLIA":"Isaías 57 a 59, Mateus 12:1-14, Lucas 6:1-11", "SIGLAES":"DTN", "CAPES":"29", "NOMES":"O Sábado"},' +
+    '"JUN_24": {"REFS":"JER_27,JER_28,LUK_6:12-49,", "CAPBIBLIA":"Jeremias 27 e 28, Lucas 6:12-49", "SIGLAES":"DTN", "CAPES":"30", "NOMES":"Nomeou Doze"},' +
+    '"JUN_25": {"REFS":"MAT_5,MAT_6,MAT_7", "CAPBIBLIA":"Mateus 5 a 7", "SIGLAES":"DTN", "CAPES":"31", "NOMES":"O Sermão da Montanha"},' +
+    '"JUN_26": {"REFS":"MAT_8,MAT_9,LUK_7", "CAPBIBLIA":"Mateus 8 e 9, Lucas 7", "SIGLAES":"DTN", "CAPES":"32", "NOMES":"O Centurião"},' +
+    '"JUN_27": {"REFS":"MAT_10,MAT_12:15-50,MAT_14", "CAPBIBLIA":"Mateus 10 e 14, Mateus 12:15-50", "SIGLAES":"DTN", "CAPES":"33", "NOMES":"Quem são os Meus Irmãos?"},' +
+    '"JUN_28": {"REFS":"JER_33,JER_34,MAT_11", "CAPBIBLIA":"Jeremias 33 e 34, Mateus 11", "SIGLAES":"DTN", "CAPES":"34", "NOMES":"O Convite"},' +
+    '"JUN_29": {"REFS":"JER_35,LUK_8:1-39,", "CAPBIBLIA":"Jeremias 35, Lucas 8:1-39", "SIGLAES":"DTN", "CAPES":"35", "NOMES":"Cala-te, Aquieta-te"},' +
+    '"JUN_30": {"REFS":"JER_39,JER_40,JER_41,LUK_8:40-56", "CAPBIBLIA":"Jeremias 39 a 41, Lucas 8:40-56", "SIGLAES":"DTN", "CAPES":"36", "NOMES":"O Toque da Fé"},' +
+    '"JUL_1": {"REFS":"JER_42,JER_43,LUK_9:1-27", "CAPBIBLIA":"Jeremias 42 e 43, Lucas 9:1-27", "SIGLAES":"DTN", "CAPES":"37", "NOMES":"Os Primeiros Evangelistas"},' +
+    '"JUL_2": {"REFS":"JER_44,JER_45,MAR_6:30-56", "CAPBIBLIA":"Jeremias 44 e 45, Marcos 6:30-56", "SIGLAES":"DTN", "CAPES":"38", "NOMES":"Vinde...Repousai um Pouco"},' +
+    '"JUL_3": {"REFS":"JER_46,JER_47,JOH_6:1-15", "CAPBIBLIA":"Jeremias 46 a 47, João 6:1-15", "SIGLAES":"DTN", "CAPES":"39", "NOMES":"Dai-lhe Vós de Comer"},' +
     '"JUL_4": {"REFS":"", "CAPBIBLIA":"Jeremias 48 a 50, João 6:16-21", "SIGLAES":"DTN", "CAPES":"40", "NOMES":"Uma Noite no Lago"},' +
     '"JUL_5": {"REFS":"", "CAPBIBLIA":"Jeremias 51 e 52, João 6:22-71", "SIGLAES":"DTN", "CAPES":"41", "NOMES":"A Crise na Galiléia"},' +
     '"JUL_6": {"REFS":"", "CAPBIBLIA":"Lamentações 1 e 2, Marcos 7:1-23", "SIGLAES":"DTN", "CAPES":"42", "NOMES":"Tradição"},' +

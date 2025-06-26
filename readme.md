@@ -27,3 +27,6 @@ simulate android
 nesse ponto, por enquanto, remover o botão; ou colocar alerta 'indisponivel'
 6. Assinar
 7. Publicar
+```shell
+cordova build android --debug  --buildConf --storePassword=Verde54@ --password=Verde54@
+```
