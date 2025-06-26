@@ -27,16 +27,12 @@ simulate android
 nesse ponto, por enquanto, remover o botão; ou colocar alerta 'indisponivel'
 6. Assinar
 
-- gerar a keystore
-
-```shell
-keytool -genkey -v -keystore <keystoreName>.keystore -alias <Keystore AliasName> -keyalg <Key algorithm> -keysize <Key size> -validity <Key Validity in Days>
-```
+### Gerando a Keystore
 
 Exemplo:
 
 ```shell
-keytool -genkey -v -keystore appassinado.keystore -alias appassinado -keyalg RSA -keysize 2048 -validity 10000
+keytool -genkey -v -keystore planoestudobiblico.keystore -alias planoestudobiblico -keyalg RSA -keysize 2048 -validity 10000
 ```
 
 Serão solicitadas algumas informações:
@@ -51,11 +47,12 @@ What is the name of your State or Province? :  xxxxx
 What is the two-letter country code for this unit? :  xxx
 ```
 
-Depois de gerada a chave, vamos assinar o apk com a ferramenta jarsigner utilizando esta chave
-
+### Gerando um app apk
 ```shell
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore <keystorename <Unsigned APK file> <Keystore Alias name>
+cordova build android --release -- -- --packageType=apk
 ```
+
+Depois de gerada a chave, vamos ASSINAR o APK com a ferramenta jarsigner utilizando esta chave
 
 Exemplo:
 
@@ -73,8 +70,12 @@ gerando o APK a partir do `zipalign` do seu SDK:
 
 Seu APK está pronto para ser colocado na PlayStore
 
+### Alternativa - Gerando o AAB assinado
+
+apos gerar a keystore, cria a bundle assinada 
+
+```shell
+cordova run android --release -- --keystore=planoestudobiblico.keystore --storePassword=ASENHAQVCSABE --alias=planoestudobiblico --password=ASENHAQVCSABE --packageType=bundle
+```
 
 7. Publicar
-```shell
-cordova build android --debug  --buildConf --storePassword=Verde54@ --password=Verde54@
-```
