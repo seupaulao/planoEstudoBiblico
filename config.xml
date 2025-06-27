@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.pjlaapps.planoestudobiblico" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>PlanoEstudoBiblico</name>
+<widget id="com.pjlaapps.leituraanualbiblia" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Leitura Anual Biblia</name>
     <description>Um Plano de Estudo da Bíblia com Leitura do Espírito de Profecia</description>
     <author email="pjlpapps@gmail.com" href="http://cordova.io">
         PJLAApps

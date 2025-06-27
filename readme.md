@@ -32,22 +32,11 @@ nesse ponto, por enquanto, remover o botão; ou colocar alerta 'indisponivel'
 Exemplo:
 
 ```shell
-keytool -genkey -v -keystore planoestudobiblico.keystore -alias planoestudobiblico -keyalg RSA -keysize 2048 -validity 10000
+keytool -genkey -v -keystore plano.keystore -alias plano -keyalg RSA -keysize 2048 -validity 10000
 ```
 
-Serão solicitadas algumas informações:
 
-```
-keystore password? : xxxxxxx
-What is your first and last name? :  xxxxxx 
-What is the name of your organizational unit? :  xxxxxxxx
-What is the name of your organization? :  xxxxxxxxx
-What is the name of your City or Locality? :  xxxxxxx
-What is the name of your State or Province? :  xxxxx
-What is the two-letter country code for this unit? :  xxx
-```
-
-### Gerando um app apk
+### Gerando um app apk para distribuição pessoal
 ```shell
 cordova build android --release -- -- --packageType=apk
 ```
@@ -57,25 +46,7 @@ Depois de gerada a chave, vamos ASSINAR o APK com a ferramenta jarsigner utiliza
 Exemplo:
 
 ```shell
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore appassinado.keystore platforms/android/build/outputs/apk/android-release-unsigned.apk appassinado
+jarsigner -keystore .\plano.keystore .\platforms\android\app\build\outputs\bundle\release\app-release.aab plano
 ```
 
 Vai pedir a senha que vc cadastrou
-
-gerando o APK a partir do `zipalign` do seu SDK:
-
-```shell
-/seu-caminho-para-o-zipalign/zipalign -v 4 /seu-caminho-para-o-apk-nao-assinado/android-release-unsigned.apk /seu-caminho-de-saida-para-o-apk-assinado/appassinado.apk
-```
-
-Seu APK está pronto para ser colocado na PlayStore
-
-### Alternativa - Gerando o AAB assinado
-
-apos gerar a keystore, cria a bundle assinada 
-
-```shell
-cordova run android --release -- --keystore=planoestudobiblico.keystore --storePassword=ASENHAQVCSABE --alias=planoestudobiblico --password=ASENHAQVCSABE --packageType=bundle
-```
-
-7. Publicar

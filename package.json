@@ -1,6 +1,6 @@
 {
-  "name": "com.pjlaapps.planoestudobiblico",
-  "displayName": "Estudo Biblico e Espirito de Profecia",
+  "name": "com.pjlaapps.leituraanualbiblia",
+  "displayName": "Plano de Leitura Anual da Biblia com Espirito de Profecia",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
   "main": "index.js",
