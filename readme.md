@@ -41,6 +41,12 @@ keytool -genkey -v -keystore plano.keystore -alias plano -keyalg RSA -keysize 20
 cordova build android --release -- -- --packageType=apk
 ```
 
+**para release**
+
+```shell
+cordova run android --release -- --keystore=../plano.keystore --storePassword=ASENHAMAGNIFICA --alias=plano --password=ASENHAMAGNIFICA --packageType=bundle
+```
+
 Depois de gerada a chave, vamos ASSINAR o APK com a ferramenta jarsigner utilizando esta chave
 
 Exemplo:

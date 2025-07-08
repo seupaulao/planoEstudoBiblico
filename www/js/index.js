@@ -46,13 +46,17 @@ function mostrarTexto(referencia) {
     
     document.getElementById('biblia').innerHTML='';
     let saida = '';
+    
     for (let i=0; i<vers.length; i++) {
         const vetor = versos[i];
         const cabecalho = transforma(vers[i]);
         saida += "<div align='center' style='font-size: 24px'><b>"+cabecalho+"</b></div><br>";
-        vetor.forEach(item => {
-            saida += "<div style='font-size: 20px'>"+lerTexto(item.trim())+"</div><br>";
-        })
+       // console.log(vetor);
+        for(let i=0; i<vetor.length; i++) {
+            let item = vetor[i];
+            let partes = item.trim().split('_'); 
+            saida += "<div style='font-size: 20px'>"+ partes[2] + ". " +lerTexto(item.trim())+"</div><br>";
+        }
     }
     document.getElementById('biblia').innerHTML=saida;
 }

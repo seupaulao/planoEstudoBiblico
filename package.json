@@ -1,5 +1,5 @@
 {
-  "name": "com.pjlaapps.leituraanualbiblia",
+  "name": "com.pjlaapps.leituraanualbiblia1",
   "displayName": "Plano de Leitura Anual da Biblia com Espirito de Profecia",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
@@ -13,13 +13,13 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "devDependencies": {
-    "cordova-android": "^13.0.0",
+    "cordova-android": "^14.0.1",
     "web": "^0.0.2"
   },
   "cordova": {
     "platforms": [
-      "android",
-      "web"
+      "web",
+      "android"
     ]
   },
   "dependencies": {
