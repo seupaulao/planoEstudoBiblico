@@ -141,18 +141,18 @@ function carregarDadosDetalhar() {
     }
     
     const sigla = getSiglaESPlano(chaveTemp);
+    const capitulo = getCapitulosESPlano( chaveTemp );
+    const titulo = getTituloCapituloESPlano(chaveTemp);
     const valor2 = getNomeLivro(sigla);
-    const url = getURLLivro(sigla);
+    const url = getURLLivro(sigla, capitulo);
     //console.log("URL:", url);
     if (url != null) {
         document.getElementById("livroEP").innerHTML = "<span style='font-size: 18px'><b>Livro: </b><a class='w3-btn w3-blue' href='"+url+"/'>" + valor2 + '</a></span>';
     } else {
         document.getElementById("livroEP").innerHTML = "<span style='font-size: 18px'><b>Livro: </b>" + valor2 + '</span>';
     }
-    const valor3 = getCapitulosESPlano( chaveTemp );
-    document.getElementById("capituloEP").innerHTML = "<span style='font-size: 18px'><b>Capitulo: </b>"+valor3 + "</span>";
-    const valor4 = getTituloCapituloESPlano(chaveTemp);
-    document.getElementById("textoEP").innerHTML = "<span style='font-size: 18px'><b>Texto: </b>" + valor4 + "</span>";
+    document.getElementById("capituloEP").innerHTML = "<span style='font-size: 18px'><b>Capitulo: </b>" + capitulo + "</span>";
+    document.getElementById("textoEP").innerHTML = "<span style='font-size: 18px'><b>Texto: </b>" + titulo + "</span>";
 }
 
 function voltar() {

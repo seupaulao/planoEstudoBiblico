@@ -31,6 +31,46 @@ const livros_biblia=['GÊNESIS',"ÊXODO","LEVÍTICO","NÚMEROS","DEUTERONÔMIO",
     "II TESSALONICENSES","I TIMÓTEO","II TIMÓTEO","TITO","FILEMON",
     "HEBREUS","TIAGO","I PEDRO","II PEDRO","I JOÃO","II JOÃO",
     "III JOÃO","JUDAS","APOCALIPSE"];
+//.2: TOC ==> Ex:   https://m.egwwritings.org/pt/book/11125.2/toc
+const leitura_ep = {
+    'PP01':'https://m.egwwritings.org/pt/book/1815.67',
+    'PP02':'https://m.egwwritings.org/pt/book/1815.115',
+    'PP03':'https://m.egwwritings.org/pt/book/1815.152',
+    'PR01':'https://m.egwwritings.org/pt/book/1816.41',
+    'PR02':'https://m.egwwritings.org/pt/book/1816.143',
+    'PR03':'https://m.egwwritings.org/pt/book/1816.2748',
+    'DTN01':'https://m.egwwritings.org/pt/book/1813.68',
+    'DTN02':'https://m.egwwritings.org/pt/book/1813.104',
+    'DTN68':'https://m.egwwritings.org/pt/book/1813.2748',
+    'DTN69':'https://m.egwwritings.org/pt/book/1813.2781',
+    'DTN70':'https://m.egwwritings.org/pt/book/1813.2825',
+    'DTN71':'https://m.egwwritings.org/pt/book/1813.2854',
+    'DTN72':'https://m.egwwritings.org/pt/book/1813.2898',
+    'DTN73':'https://m.egwwritings.org/pt/book/1813.2943',
+    'DTN74':'https://m.egwwritings.org/pt/book/1813.3038',
+    'DTN75':'https://m.egwwritings.org/pt/book/1813.3085',
+    'DTN76':'https://m.egwwritings.org/pt/book/1813.3165',
+    'DTN77':'https://m.egwwritings.org/pt/book/1813.3203',
+    'DTN78':'https://m.egwwritings.org/pt/book/1813.3302',
+    'DTN79':'https://m.egwwritings.org/pt/book/1813.3377',
+    'DTN80':'https://m.egwwritings.org/pt/book/1813.3418',
+    'DTN81':'https://m.egwwritings.org/pt/book/1813.3466',
+    'DTN82':'https://m.egwwritings.org/pt/book/1813.3498',
+    'DTN83':'https://m.egwwritings.org/pt/book/1813.3529',
+    'DTN84':'https://m.egwwritings.org/pt/book/1813.3551',
+    'DTN85':'https://m.egwwritings.org/pt/book/1813.3584',
+    'DTN86':'https://m.egwwritings.org/pt/book/1813.3622',
+    'DTN87':'https://m.egwwritings.org/pt/book/1813.3682',
+    'AA01':'https://m.egwwritings.org/pt/book/1806.14',
+    'AA02':'https://m.egwwritings.org/pt/book/1806.42',
+    'AA03':'https://m.egwwritings.org/pt/book/1806.66',
+    'PJ01':'https://m.egwwritings.org/pt/book/1931.11',
+    'PJ02':'https://m.egwwritings.org/pt/book/1931.63',
+    'PJ03':'https://m.egwwritings.org/pt/book/1931.237',
+    'GC01':'https://m.egwwritings.org/pt/book/11125.47',
+    'GC02':'https://m.egwwritings.org/pt/book/11125.139',
+    'GC03':'https://m.egwwritings.org/pt/book/11125.179',
+};
 
 const planosstring = '{' +
     '"JAN_1": {"REFS":"PSA_1, PSA_2", "CAPBIBLIA":"Salmos 1 a 2", "SIGLAES":"PP", "CAPES":"", "NOMES":"Prefacio"},' +
@@ -433,17 +473,13 @@ function getURLPDF(sigla){
     return urls[sigla];
 }
 //fixme problema quando lvro is null
-function getURLLivro(sigla){
-    let urls = Object.assign({}, JSON.parse(urllivros));
+function getURLLivro(sigla, capitulo){
+    const referencia = sigla + capitulo;
     if (sigla == "AA") {
-        //let x = getURLPDF(sigla);
-        //alert('ARQUIVO INDISPONÍVEL');
         return null;
     }
-    return urls[sigla];
+    return leitura_ep[referencia];
 }
-
-
 
 function getVersosCapitulo(referencia) {
              let versos = [];
