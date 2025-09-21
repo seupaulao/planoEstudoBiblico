@@ -17,15 +17,14 @@ simulate android
 ```
 
 ## Próximos passos
-1. Remover erros 
-   - existem referencias erradas no texto biblico e espirito de profecia - procurar e corrigir 
-   - colocar no topo do detalhe do estudo o mes e dia para melhorar a navegação   
-2. Gerar arte
-3. Colocar a arte no APP e testar
-4. Colocar biblia nessa versão?
-5. Verificar se ao clicar no livro de Atos dos Apostolos está indo a pagina ou 
-nesse ponto, por enquanto, remover o botão; ou colocar alerta 'indisponivel'
-6. Assinar
+1. Colocar a integração com EllenWhiteWritings
+2. Certificar-se que na leitura da biblia apareça os versiculos
+3. Colocar uma scrollbar na leitura da biblia, facilitando a navegação
+4. Desabilitar botão de Leitura e Marcar texto automaticamente
+se nao houver texto para leitura ou `****`
+5. Remover ou Substituir Imagem do Cordova em LoadScreen
+6. Publicar apenas se os icones estiverem corretos
+9. Colocar um buyme a coffee 
 
 ### Gerando a Keystore
 
