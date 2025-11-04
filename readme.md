@@ -17,14 +17,15 @@ simulate android
 ```
 
 ## Próximos passos
-1. Colocar a integração com EllenWhiteWritings
-2. Certificar-se que na leitura da biblia apareça os versiculos
-3. Colocar uma scrollbar na leitura da biblia, facilitando a navegação
-4. Desabilitar botão de Leitura e Marcar texto automaticamente
+01. Colocar a integração com EllenWhiteWritings
+02. Certificar-se que na leitura da biblia apareça o número dos versiculos
+03. Colocar uma scrollbar na leitura da biblia, facilitando a navegação
+04. Desabilitar botão de Leitura e Marcar texto automaticamente
 se nao houver texto para leitura ou `****`
-5. Remover ou Substituir Imagem do Cordova em LoadScreen
-6. Publicar apenas se os icones estiverem corretos
-9. Colocar um buyme a coffee 
+05. Remover ou Substituir Imagem do Cordova em LoadScreen
+06. Publicar apenas se os icones estiverem corretos
+09. Colocar um buyme a coffee 
+
 
 ### Gerando a Keystore
 
